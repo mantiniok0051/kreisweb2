@@ -1,0 +1,93 @@
+{
+  "NAVY": {
+    "WELCOME": "Bienvenido",
+    "ABOUT": "Nosotros",
+    "SERVICES": "Servicios",
+    "BRANDS":"Marcas",
+    "SUBSIDIARIES": "Filiales",
+    "CLIENTS":"Clientes",
+    "CONTACT":"Contacto",
+    "LANG":"English"
+  },
+
+  "WELCOME":{
+  	"TITLE": "Bienvenido"
+  },
+
+  "ABOUT":{
+  	"TITLE": "Nosotros",
+  	"QUOTE": "“Me enseñaron que quien piensa como yo está¡ loco, fué entonces que decidí seguir así ...¡Loco!”",
+  	"BIO": "Soy un artista multidisciplinar nacido y criado en la cosmopolita ciudad de Guadalajara, México, y su hermoso paisaje. Mi trabajo, incorpora la belleza de la cultura y tradiciones mexicanas, modernas técnicas de manufactura y procesos innovadores, para diseñar, restaurar y crear increíbles piezas de arte, muebles, edificios y espacios de vida.",
+  	"PHIL_HDR":"Filosofía",
+  	"PHIL_TXT":"El amor y la pasión son la base de nuestras creaciones. Con cada pieza y cada espacio buscamos provocar emociones que transporten al espectador a otra dimensión. Nos caracteriza lo nuevo, lo diferente; un toque de glamour y surrealismo va implícito en cada obra, en cada proyecto. Somos atemporales y amamos la libertad."
+  },
+  "SERVICES":{
+  	"TITLE": "Servicios",
+  	"ARCH_HDR": "Arquitectura",
+  	"ARCH_TXT": "Somos una firma de arquitectura especializada en proyectos para casas de playa y  la restauración de fincas y monumentos históricos.",  	
+  	"FID_HDR": "Muebles & Interiorismo",
+  	"FID_TXT": "Nos especializamos en proyectos residenciales y hoteleros de alto nivel, y apoyamos a arquitectos e interioristas por medio de proyectos de producción de piezas exclusivas.",
+  	"VA_HDR": "Artes visuales",
+  	"VA_TXT": "Creamos piezas artísticas como arte objeto, pintura, escultura, grabado & fotografía que destaquen la estética y la perfección en cada espacio.",
+  	"LEGEND": "“Un porcentaje de nuestras utilidades es donado a organizaciones de apoyo para la educación de niños y adolescentes.”"
+  },
+  "BRANDS":{
+    "TITLE": "Marcas",
+    "KITC_HDR": "Kitchens",
+    "KITC_TXT": "Diseñamos y fabricamos cocinas de alto nivel para clientes que desean convertir su lugar en un espacio multidisciplinario en el que conviven el arte y la magia con sus actividades diarias.",
+    "KITC_PATH":"/assets/imgs/GalleryImages/KreisKitchens/",
+    "KITC_ALBUM": "KreisKitchens-",
+    "KITC_MAX": "15",   
+
+    "ARCH_HDR": "Arquitectura",
+    "ARCH_TXT": "Somos un firma de arquitectura especializada en proyectos para casas de playa, hoteles boutique y restauración de fincas y monumentos históricos. Creamos y transformamos espacios buscando trasladar al ser humano a un mundo minimal y surrealista.", 
+    "ARCH_PATH":"/assets/imgs/GalleryImages/KreisArchitecture/",
+    "ARCH_ALBUM": "Kreis-architects-",
+    "ARCH_MAX": "24",  
+
+    "ARTS_HDR": "Arts & Crafts",
+    "ARTS_TXT": "Somos una firma de diseño especializada en la creación de muebles y obras de arte a través de la abstracción de experiencias de la vida cotidiana que provoquen diferentes emociones en nuestros clientes y espectadores.",
+    "ARTS_PATH":"/assets/imgs/GalleryImages/KreisArts_Crafts/",
+    "ARTS_ALBUM": "Kreis-arts-and-krafts-",
+    "ARTS_MAX": "7",
+    
+    "SACRO_HDR": "Sacro",
+    "SACRO_TXT": "Utilizando materiales como la madera, el bronce, el oro y la plata entre otros, creamos piezas de arte sacro con la finalidad principal de rescatar las tradiciones y costumbres religiosas del mundo. Fabricamos piezas a medida para espacios tanto religiosos como habitacionales y comerciales.",
+    "SACRO_PATH":"/assets/imgs/GalleryImages/KreisSacro/",
+    "SACRO_ALBUM": "Sacro-",
+    "SACRO_MAX": "22",
+    
+    "CLOSE": "CERRAR"
+  },
+  "SUBSIDIARIES":{
+    "TITLE": "Filiales",
+    "INM_HDR": "Industrial Mueblera",
+    "INM_TXT": "Somos una empresa mexicana con 55 años de existencia. Nos dedicamos al diseño y fabricación de muebles residenciales, hotelería y restaurantes.",   
+    "CON_HDR": "Cocinas Nacionales",
+    "CON_TXT": "Nos dedicamos a la fabricación de cocinas integrales. Cada modelo es adaptado a las necesidades de nuestros clientes.",
+    "LSM_HDR": "Landscape México",
+    "LSM_TXT": "Nos dedicamos a la creación d eespacions naturales diseñando y ejecutando proyectos internacionales de paisajismo artístico en mediana y gran escala, aplicando nuestros conocimientos de sustentabilidad y permacultura.",
+    "PRG_HDR": "Pérgolas México",
+    "PRG_TXT": "Construimos techos pergolados y foog gardens para disfutar al aire libre.",
+    "PIN_HDR": "Pincelia",
+    "PIN_TXT": "Somos una galería de arte en línea, que se deduca a la venta de obras de artistas reconocidos y emergentes a nivel internacional.",
+    "SIM_HDR": "Sillas México",
+    "SIM_TXT": "Somos una empresa comercializadora de sillas fabricadas en México.",
+    "FIVA_HDR": "Fiva",
+    "FIVA_TXT": "Fiesta del Vino y el Arte. Es un evento anual organizado por Kreis Industries con la finalidad principal de dar a conocer vuno y artistas mexicanos por medio de exposiciones y conferencias."
+  },
+  "CLIENTS":{
+    "TITLE": "Clients"
+  },
+  "CONTACT":{
+    "TITLE": "Contacto",
+    "NAME_LABEL": "Nombre",
+    "SUBJECT_LABEL": "Asunto",
+    "MAIL_LABEL": "E-MAIL",
+    "MAIL": "e-mail: contact@kreisindustries.com",
+    "PHONE": "Phone: 510 777 5454",
+    "WEB": "www.kreisindustries.com",
+    "ADRESS": "Calzada de la Aurora S / N, Aurora, Santa Cecilia, 37710 San Miguel of Allende, Gto.",
+    "QUOTE": "“Si después ya intestaste llegar varias veces por el mismo camino y terminas siempre atrás, que esperas para volar!?”"
+  }
+}

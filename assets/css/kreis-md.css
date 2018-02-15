@@ -1,0 +1,810 @@
+/*
+
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+					hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+					hhhhhhyso+//////////////////////////////+osyhhhhhh
+					hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+					hhhhsso++////-.       .-//-.       .-////++++shhhh
+					hhhhsssssoo::////////`      `////////::++++++shhhh
+					hhhhssssssso--+osssss:      :ssssso+--+++++++shhhh
+					hhhhsssssssso/``....++      ++....` :++++++++shhhh
+					hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+					hhhhssssssssssso      .::::.      +++++++++++shhhh
+					hhhhssssssssssss       `++`       +++++++++++shhhh
+					hhhhssssssssssss        --        +++++++++++shhhh
+					hhhhssssssssssss.      `--`      .+++++++++++shhhh
+					hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+					hhhhssssssssssssssss+        /+++++++++++++++shhhh
+					hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+					hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+					hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+					hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+		
+	==============================================================================
+		Version: 1.0
+		Creation date: June 2017
+		Autor: Created by Green Lyon 
+		Owner: Kreis Industries 
+		Description: CSS File for XtraSmall displays widht =< 375px
+		Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto
+	==============================================================================
+*/
+/*----------------------- Global  styles ---------------------------*/
+
+.navbar{
+	font-size: 1em
+}
+span.icon-dots-three-vertical{
+	color: #D91C5C !important;	
+	padding-left: 10%;
+	font-size: 1.3em;
+}
+
+.navbar-header{
+	padding-bottom: 2%;
+}
+.navbar ul{
+	text-align: right;
+	float: right;
+}
+.navbar ul li{
+	text-align:right;
+	margin-left: 10%;
+}
+.navbar a:active {
+	text-decoration: none;
+	color: #D91C5C;
+}
+.navbar a:hover {
+	text-decoration: none;
+	color: #D91C5C;
+}
+
+.kreis-icon-caret{		
+	max-width: 150%;
+	margin: 3px;
+	opacity: 0.5;
+}
+.icon-bar{}
+
+
+
+/*----------------------- Welcome section styles ---------------------------*/	
+
+footer p{margin-top: 0%;}
+/*----------------------- Welcome section styles ---------------------------*/
+.welcome-title{
+	margin-top: -27%;
+	margin-left: 0.5%;
+	font-size: 3.5em;
+}
+.hidden-md{
+	width: 1px !important;
+	z-index: -1;
+	height: 1px;
+	visibility: hidden;
+}
+.kreis-welcome{
+	min-height: 100%;
+	min-width: 100%;
+	height: 481px;
+	width: 850px;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	overflow: hidden;
+}
+.welcome-blur{
+	min-height: 50% !important;
+	background-position: center top;
+	background-size: cover;
+	width: 736px;
+	height: 240px;
+	max-height: 50%;
+	margin-top: -0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	border: solid 2px rgba(0, 0, 0, 1);
+}
+.welcome-lines{
+	opacity: 0.7;
+	background-image: url('../imgs/backgrounds/linespatterns/welcome_lines.png') !important;
+	background-size: cover;
+	width: 736px;
+	height: 240px;
+	min-height: 50%;
+	max-height: 50%;
+	margin-top: -27%;
+	border: solid 0.1em rgba( 230, 230, 230, 0.7);
+}
+.welcome-logo-container{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -10.5%;
+}
+.welcome-logo{
+ width:40%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.navbar{
+	padding-top: 0.5%;
+	font-size: 1em;
+	padding-right:3%;
+}
+.welcome-footer{
+	margin-top: -0%;
+	margin-bottom: -1%;
+	font-size: 0em;
+	visibility: hidden;
+}
+/*----------------------- Welcome section styles ---------------------------*/
+
+/*----------------------- About section styles ---------------------------*/
+	.kreis-about{
+		min-height: 100%;
+		min-width: 100%;
+		width: 850px;
+		overflow: hidden !important;
+	}
+	.about-container{
+		min-width: 100%;
+		min-height: 100% !important;
+		width: 850px;
+		height: 481px;
+	}
+	.about-kreis{
+		background-image: url('../imgs/backgrounds/Mikkael-Kreis-About-left.jpg');
+		background-size: 100%;	
+		background-position-x: left; 
+		background-position: center;	
+	}
+	.about-logo-container{
+		z-index: -1;
+		height: 0px;
+		margin-top: 0%;
+		margin-bottom: -0%;
+		display: none;
+		visibility: hidden;
+	}
+	.about-logo{
+		height: 0px;
+		margin-bottom: -0%;
+		background-size: 0%;
+		background-position: bottom;
+	}
+	.about-logo-color-mob{
+		background-image: url('/assets/imgs/iconos-logos/HalfKreis-icon-full-color-large.png');
+		background-repeat: no-repeat;
+		z-index: 5555;
+		height: 50%;
+		background-size: 50%;	
+		background-position-x:center; 
+		margin-top: -13%;	
+	}
+	.about-blur{
+		background-size: cover;
+		height: 414px;
+		max-height: 100%;
+		margin-bottom: -54%;
+		overflow: hidden;
+	}
+	.about-lines{
+		background-size: 100%;
+		position: absolute;
+		margin-top: -0%;
+		margin-left: 0%;
+		overflow: hidden;
+	}
+	.about-quote{	
+		margin-top: 6%;
+		margin-left: 0%;
+		text-align: left;
+	}
+	.about-quote p{
+		margin-left: 56%;
+		color:#D3D3D3;
+		text-align: left;
+	}
+	.about-quote p small{
+		float: right;
+		text-align: right;
+		color: #FFFFFF;
+	}
+	.about-bio{
+		margin-top: 0.5%;
+	}
+	.about-pilosophy{
+		margin-left: 10%;
+	}
+	.about-bio h3, .about-philosopy h3{
+		font-size: 1.5em;
+	}
+	.about-bio p, .about-philosopy p{
+		font-size: 1em;
+	}
+
+	.about-logo-sm{
+		height: 100%;
+		background-size: 90%;
+
+	}
+
+	.about-content{
+		margin-top: -53%; 
+	}
+	.about-footer{
+		z-index: 9999;
+		margin-top: -3%;
+		margin-bottom: -0%;
+		font-size: 1.3em;
+	}
+	.about-top-left{
+		height: 370px;
+		font-size: 1.5em;
+	}
+	.about-top-right{
+		height: 266px;
+		max-width: 45%;
+		margin-top: 10%;
+		margin-bottom: -25%;
+	}
+	.about-bottom-right{
+		margin-top: -3%;
+		margin-bottom: 6%;
+		height: 266px;
+		max-width: 50%;
+		margin-left: 55%;
+	}
+/*----------------------- /About section styles ---------------------------*/
+
+
+/*----------------------- Services section styles ---------------------------*/
+	.kreis-services{
+		height: 414px;
+		width: 100%;	
+		overflow: hidden !important;			
+	}
+	.services-blur{
+		background-size: cover;
+		margin-top: -0%;
+		margin-bottom: -33%;
+		height: 243px;
+		border: 0px solid rgba(255, 0, 0, 0.3);
+		-webkit-filter: blur(12px);
+	    -moz-filter: blur(12px);
+	    -o-filter: blur(12px);
+	    -ms-filter: blur(12px);
+	    filter: blur(12px);
+	    overflow: hidden !important;
+	}
+	.services-lines{
+		background-size: cover;
+		background-image: url('../imgs/backgrounds/linespatterns/mobile/services.png');
+		opacity: 0.8;
+		margin-bottom: -1%;
+		margin-top: 0%;
+		height: 245px;
+		background-color: rgba(0, 0, 0, 0.33);
+		background-position: right bottom;
+		background-position: right top;
+	}
+	.services-title{
+		margin-top: 0%;
+	}
+	.services-title h1{
+		font-size: 0em;
+		margin-top: 0%;
+		margin-left: 0%;
+	}
+	.services-title-mob{
+		margin-bottom: -13%;
+		z-index: 5555;
+		text-align: left;
+		z-index: 5555;
+		border: 1px solid rgba(0, 255, 0, 0.0);
+	}
+	.services-title-mob h1{
+		font-size: 3.5em;
+		margin-top: 4%;
+	}
+	.services-logo-sm{
+		margin-left: 20%;
+		height: 102px;
+		background-size: 75%;
+		margin-top: -15%;
+	}
+	.services-logo-container{
+		background-size: 100%;
+		margin-left: -2.4%;
+		margin-top: -36.5%;
+		height: 412px;
+		max-height: 100%;
+
+	}
+	.services-content-bg{
+		margin-top: -1%;
+		padding-top: 9%;
+		height: 495px;
+		background-color: rgba(0,0,0, 1);
+	}
+	.service{
+		margin-top: 7%;
+		max-width: 90%;
+	}
+	.service h3{
+		font-size: 1.3em;
+	}
+	.service p{
+		font-size: 1em;
+	}
+	.services-last{
+		margin-top: -10%;
+	}
+ 	.services-legend-mob{
+ 	z-index: 8888;
+ 	margin-bottom: -19%;
+    padding-top: 6%;
+    text-align: center;
+    font-size: 1.8em;
+    color: black;
+    z-index: 5555;
+    height: 140px;
+    border: red solid 0px;
+    font-family: 'HelveticaNueLTCom' !important;
+ 	}
+ 	.services-footer{
+ 		font-size: 1em;
+ 		margin-top: -3.6%;
+ 		margin-bottom: -4%;
+ 		background-color: rgba(0, 0, 0, 0.0);
+
+ 	}
+
+/*----------------------- /Services section styles ---------------------------*/
+
+/*----------------------- Brands section styles ---------------------------*/
+.tall-row{
+	height:414px;
+}
+.kreis-brands{
+		height: 414px;
+		width: 736px;
+		color: white;
+}
+.brands-logo-sm{
+	height: 200px;
+	background-size: 75%;
+}
+.brands-blur{
+	width: 100%;
+	height: 333px;
+    margin-top: -18.5%;
+} 
+.brands-lines{
+	background-position: center center;
+	background-size: 120%;
+	height: 333px;
+	width: 100%;
+	margin-top: -25.1%;
+	background-color: rgba(85, 85, 85, 0.34);
+}
+.brands-catalog{
+	height: 333px;
+	width: 100%;
+	max-height: 100%;
+	padding:-2%;
+	margin-top: -25%;
+}
+.brands-title{	
+	margin-top: -2%;
+	margin-left: -1%;
+	margin-bottom: 1%;
+}
+.brands-title h1{
+	font-size:4em;
+}
+.brands-catalog-main{
+	margin-left: 4%;	
+	height: 399px;
+}
+.brands-catalog-sidebar{
+	height: 100px;
+}
+.catalog-display{
+	height: 325px;	
+	margin-top: -56.3%;
+	margin-left: 
+}
+.brands-logo{	
+	background-position-x:right; 
+	background-size: 90%;
+	height: 435px;
+	margin-bottom: -2%;
+	margin-top: -8.4% 
+}
+.invisible{
+	visibility:hidden;
+}
+.brands-catalog-btn-bg{
+	max-width: 24%;
+	text-align: center;
+	padding-top: 21.65%;
+	margin-left: -5%;
+	margin-right: 5.5%;
+	height: 100%;
+	border: 1px solid rgba(0,255,255, 0.0);
+	background-color: rgba(0,255,255, 0.0);
+}
+.brand-tile{
+	opacity:0.5;
+}
+.brand-tile:hover{
+	opacity:1;
+}
+.brand-display-name{
+	margin-top:4%;
+	margin-left:4%;
+	margin-right: 21%;
+
+}
+.brand-detail-logo{
+	margin-top: 4%;
+	margin-left: 10.5%;
+	width: 15%
+}
+.spacer {
+    margin-top: 1%; 
+}
+#details-close-btn{
+	font-size: 1.4em;
+	background-color: rgba(0, 0, 0, 0.1);
+	color: white;
+	border-color:  rgba(255, 255, 255, 0.1);
+}
+#details-close-btn:hover, #details-close-btn:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #D91C5C;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+.hidden-brand{
+}
+.brand-icon{
+	margin-top: -10%;
+	width: 100%;
+}
+.brands-footer{
+	font-size: 1.3em;
+	margin-top: -0.5%;
+	margin-bottom: -0%;
+}
+#details-description p{
+	margin-left: 4%;
+	margin-right:24%;
+	margin-top: -2%;
+	font-size: 1em;
+	color: #ccc;
+}	
+.details-right{
+	color:#ccc;
+	font-size: 1em;
+	margin-left:7.5%;
+	max-width: 70%;
+
+}
+.brands-map{
+	height: 143px;
+}
+.side-menu{
+margin-top: 3%;
+margin-left: 2%;
+}
+.brands-details-close-container{
+	margin-top: -25%
+	}
+/*----------------------- Brands section styles ---------------------------*/
+
+/*----------------------- Gallery section styles ---------------------------*/
+.kreis-gallery{
+	min-width: 100%;
+	max-width: 100%;
+	height: 100%;
+	width: 850px;
+	color: white;
+}
+.gallery-prev{}
+.gallery-next{}
+.gallery-nav{
+}
+.gallery-nav:hover, .gallery-nav:focus{}
+.gallery-album-triger{
+height: 100%;
+background-size: 50%;
+}
+.kreis-gallery-logo{
+	margin-top: -0.5%;
+	margin-bottom: -1%;
+	margin-left: 0%;
+	height: 21%;
+	background-size: 34%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-album{
+	margin-top: -35%;
+	width: 736px;
+	height: 200px;
+	overflow: scroll;
+}
+.gallery-spacer-top{
+	height: 27%;
+}
+.social-icons-bar{
+	margin-top: 16%;
+	margin-bottom: -3%;
+	height:108px;
+		margin-left: 5%
+	}
+	.social-icon{
+		padding-top: 7%;
+			font-size: 1.3em;
+			background-size: 80%;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 100%;
+		}
+		.social-icon:hover, .social-icon:focus{
+			opacity: 1.0;
+		}
+		.social-fb{
+		}
+		.social-yt{
+		}
+		.social-tw{
+		}
+		.social-ins{
+		}
+		.social-lin{
+		}
+		.social-ggl{
+		}
+		.social-pin{
+		}
+		.gallery-blur{
+			margin-top: -10%;
+			height: 280px;
+			overflow: hidden;
+		}
+		.gallery-lines{
+		margin-top: -38%;	
+			height: 280px;
+		}
+		.gallery-btn-kitchen{
+			height: 90%;
+			width: 100%;
+		}
+		.gallery-btn-architects{
+			height: 90%;
+			width: 100%;
+		}
+		.gallery-btn-art{
+			height: 90%;
+			width: 100%;
+		}
+		.gallery-album-btn{
+			opacity: 1;
+			height: 100%;
+		}
+		.hidden-album{}
+		.hidden-block{}
+		.modal-dialog{
+			width:100% !important;
+			height: 100%;
+		}
+		.modal-content{
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 100%;
+			height: 100%;
+			margin-top:auto;
+			margin-bottom:auto;
+			margin-left:-0%;
+		}
+		.modal-content h4{
+			font-size: 2.7em;
+		}
+		.modal-content p{
+			font-size: 1.3em;
+		}
+		.details-blur{
+			margin-bottom: -54%;
+			}
+	.gallery-footer{
+		font-size: 1em;
+		margin-top: -26.5%;
+	}
+	#fullview-mob{
+		opacity: 0.8;
+		font-size: 3em;
+		padding-top: 0px;
+		padding-left: -1px;
+		height: 21%;
+		margin-top: 2%
+	}
+	.gallery-album-triger-mob{
+		height: 25% !important;
+		opacity: 0.8;
+		font-size: 1em;
+		padding-top: 0px;
+		padding-left: 0px;
+		margin-top: -11%;
+		margin-left: 0%;
+		background-size: 20%;
+	}
+	.gallery-spacer-bottom{
+		height: 17%
+	}
+	.gallery-menu-h2{
+		margin-top: 0% !important;
+		margin-bottom: 0px !important;
+		font-size: 0em;
+	}
+
+/*----------------------- / Gallery section styles ---------------------------*/
+
+/*-----------------------  Contact section styles ---------------------------*/
+		.kreis-contact{
+			background-size: 200%;
+			margin:0px;
+			padding: 0px;
+			height: 414px;
+			width: 736px;
+		}
+		.contact-container{
+			height: 100%;
+		}
+		.contact-left-top h1{
+			margin-top: 2%;
+			font-size: 2.7em;
+		}
+		.contact-blur{
+			background-size: 200%;
+			background-position: center left;
+			height: 600px;
+			width: 736px !important;
+			margin-top: -6%;
+			margin-left: 0%;
+
+		}
+		.contact-form{
+			background-image:none;
+			height: 580px;
+			width:100% !important;
+			margin-top: -81%;
+			padding-top: 1%;
+			background-color: rgba(120, 120, 120, 0.27);
+		}
+		.contact-map{
+
+		}
+		.contact-map-mob{
+			height: 400px;
+		}
+		.contact-logo-mob{
+			height: 400px;
+			background-size: 52%;
+			margin-top: 102%;
+		}
+		.contact-footer{
+			font-size: 1.3em; 
+			margin-top: -17.2%;
+			margin-bottom: -5%;
+		}
+		.contact-left-top{
+			height: 100px;
+		}
+		.contact-left-bottom{
+			height: 153px;
+		}
+		.contact-map{
+			height: 110%;
+			margin-top:2%;
+		}
+		.contact-logo-sm{
+			background-size: 60%;
+			height: 151px;
+		}
+		.contact-logo-sm-ipad{
+			background-size: 60%;
+			height: 200px;
+			opacity: 1;
+			background-image: url('/assets/imgs/iconos-logos/Kreis-logo-full-color-small.png');
+			background-size: 70%;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		.contact-info-ipadh{
+			padding-top: 0%;
+			font-size: 0em !important;
+			color:black;
+		}
+		.contact-info-mob{
+			font-size: 2em;
+			margin-top: 5%;
+			margin-bottom: 10%;
+		}
+		.contact-info-spacer{
+			height:  17px;
+		}
+		.contact-info-data{
+			padding-top: 2%;
+			font-size: 1.5em;
+			color: #ffffff;
+			height:  100px;
+		}
+		.contact-info-web{
+			height:  15px;
+		}
+		.contact-form-container{
+			height: 100%
+		}
+		.contact-data-block{
+			margin-top: -35%;
+			color: black;
+		}
+		.contact-send-btn{
+			height: 54px;
+			margin-top: 2%;
+			font-size: 2em;
+		}
+		 .contact-label{
+		 	font-family: 'HelveticaNueLTCom';
+		 	font-size: 2em;
+		 }		 
+		.contact-right-top{
+			text-align: right;
+			padding-top: 0%;
+			font-size: 0em;
+			height: 1px;
+			width: 100%;
+		}
+		.contact-quote{
+			margin-top: 8.5%;			
+		}
+		.contact-quote p{
+			color:#D3D3D3;
+		}
+		.contact-quote p small{
+			float: right;
+			text-align: right;
+			color: #FFFFFF;
+		}
+		.contact-right-middle{
+			height: 0px;
+		}
+		.contact-right-bottom{
+			margin-top: 13.5%;
+			height: 0px;
+			width: 100%;
+		}
+		#contact_msg{
+			height: 180px !important;
+		}
+		.hidden-ipadh{
+			visibility: hidden;
+			z-index: -1;
+			height: 1px;
+			width: 1px;
+		}
+		#kreis-contact-left-container{
+			margin-bottom: -20.5%;
+		}
+/*----------------------- / Contact section styles --------------------------*/

@@ -1,0 +1,645 @@
+/*
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+					hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+					hhhhhhyso+//////////////////////////////+osyhhhhhh
+					hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+					hhhhsso++////-.       .-//-.       .-////++++shhhh
+					hhhhsssssoo::////////`      `////////::++++++shhhh
+					hhhhssssssso+++osssss:      :ssssso++++++++++shhhh
+					hhhhsssssssso/``....++      ++....` :++++++++shhhh
+					hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+					hhhhssssssssssso      .::::.      +++++++++++shhhh
+					hhhhssssssssssss       `++`       +++++++++++shhhh
+					hhhhssssssssssss        ++        +++++++++++shhhh
+					hhhhssssssssssss.      `++`      .+++++++++++shhhh
+					hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+					hhhhssssssssssssssss+        /+++++++++++++++shhhh
+					hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+					hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+					hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+					hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+		
+	===========================================================================
+	||	Version: 1.0                                                         ||
+	||	Creation date: June 2017                                             ||
+	||	Autor: Created by Green Lyon                                         ||
+	||	Owner: Kreis Industries                                              ||
+	||	Description: CSS File for large displays widht = >1280px              ||
+	||	Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto     ||
+	===========================================================================
+	
+
+footer p{margin-top: 0%;}
+/*----------------------- Welcome section styles ---------------------------*/
+.services-title-ipadv{
+	visibility: hidden;
+	z-index: -1;
+}
+footer p{margin-top: 0%;}
+/*----------------------- Welcome section styles ---------------------------*/
+.welcome-title{
+	margin-top: -28%;
+	margin-left: 1%;
+	font-size: 5.3em;
+}
+.hidden-md{
+	width: 1px !important;
+	z-index: -1;
+	height: 1px;
+	visibility: hidden;
+}
+.kreis-welcome{
+	height: 720px !important;
+	width: 1280px !important;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	overflow: hidden;
+}
+.welcome-blur{
+	width: 1280px;
+	height: 360px;
+	max-height: 50%;
+	margin-top: -0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	border: solid 2px rgba(0, 0, 0, 1);
+}
+.welcome-lines{
+	width: 1280px;
+	height: 360px;
+	max-height: 50%;
+	margin-top: -28.1%;
+	border: solid 0.1em rgba( 230, 230, 230, 0.7);
+}
+.welcome-logo-container{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -9.1%;
+}
+.welcome-logo{
+ width:36%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: -1.5%;
+}
+.navbar{
+	font-size: 1.0em;
+	padding-right:8%;
+}
+.welcome-footer{
+	margin-top: 1.8%;
+	margin-bottom: -1%;
+	font-size: 1em;
+}
+/*----------------------- Welcome section styles ---------------------------*/
+
+/*----------------------- About section styles ---------------------------*/
+	.kreis-about{
+		height: 720px;
+		width: 1280px;
+		overflow: hidden !important;
+	}
+	.about-container{
+		height: 720px;
+	}
+	.about-kreis{
+		z-index: 2222;
+		background-image: url('../imgs/backgrounds/Mikkael-Kreis-About-left.jpg');
+	}
+	.about-logo-container{
+		z-index: 5555;
+		height: 405px;
+		margin-bottom: -2%;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.about-logo{
+		height: 405px;
+		margin-bottom: -2%;
+		background-size: 100%;
+		background-position: bottom;
+	}
+	.about-blur{
+		background-size: 100%;
+		height: 720px;
+		max-height: 100%;
+		overflow: hidden !important;
+	}
+	.about-lines{
+		background-size: 100%;
+		position: absolute;
+		margin-top: -56.3%;
+		margin-left: 50%;
+		overflow: visible;
+	}
+	.about-quote{	
+		margin-top: 5%;
+		margin-left: 50%;
+		text-align: left;
+	}
+	.about-quote p{
+		color:#D3D3D3;
+	}
+	.about-quote p small{
+		float: right;
+		text-align: right;
+		color: #FFFFFF;
+	}
+	.about-bio{
+		margin-top: 14.5%;
+	}
+	.about-pilosophy{
+		margin-left: 10%;
+	}
+	.about-bio h3, .about-philosopy h3{
+		font-size: 1.8em;
+	}
+	.about-bio p, .about-philosopy p{
+		font-size: 1.1em;
+	}
+
+	.about-logo-sm{
+		height: 100%;
+		background-size: 80%;
+	}
+
+	.about-content{
+		margin-top: -53%; 
+	}
+	.about-footer{
+		z-index: 9999;
+		margin-top: -1.3%;
+		margin-bottom: -1%;
+		font-size: 0.9em;
+	}
+	.about-top-left{
+		height: 370px;
+		font-size: 1.9em;
+	}
+	.about-top-right{
+		height: 444px;
+	}
+	.about-bottom-right{
+		height: 296px
+	}
+/*----------------------- /About section styles ---------------------------*/
+
+
+/*----------------------- Services section styles ---------------------------*/
+	.kreis-services{
+		height: 720px;
+		width: 100%;	
+		overflow: hidden !important;			
+	}
+	.services-blur{
+		background-size: 100%;
+		margin-top: -0%;
+		margin-bottom: -50%;
+		height: 304px;
+		border: 0px solid rgba(255, 0, 0, 0.3);
+		-webkit-filter: blur(30px);
+	    -moz-filter: blur(30px);
+	    -o-filter: blur(30px);
+	    -ms-filter: blur(30px);
+	    filter: blur(30px);
+	    overflow: hidden !important;
+	}
+	.services-lines{
+		opacity: 0.8;
+		margin-bottom: -1%;
+		margin-top: -0%;
+		height: 304px;
+		background-color: rgba(0, 0, 0, 0.33);
+		background-position-x: right;
+		background-position-y:bottom;
+		background-size: 102.5%;
+	}
+	.services-title{
+		margin-top: 4%;
+	}
+	.services-title h1{
+		font-size: 5em;
+		margin-top: 0%;
+		margin-left: 48%;
+	}
+	.services-logo-sm{
+		height: 211px;
+		background-size: 75%;
+		margin-top: -5.5%;
+		margin-bottom: -50%;
+		margin-left: 35%;
+	}
+	.services-logo-container{
+		background-size: 83%;
+		margin-left: -2.4%;
+		margin-top: -27.8%;
+		height: 718px;
+		max-height: 100%;
+
+	}
+	.services-content-bg{
+		margin-top: -2px;
+		margin-bottom: -32%;
+		height: 400px;
+		background-color: rgba(0,0,0, 1);
+	}
+	.service{
+		margin-top: 7%;
+	}
+	.service h3{
+		font-size: 1.3em;
+	}
+	.service p{
+		font-size: 0.9em;
+	}
+	.services-last{
+		margin-top: -10%;
+		margin-bottom: -1%;
+	}
+ 	.services-legend{
+ 		margin-top: 2.5%;
+ 	}
+ 	.services-footer{
+ 		font-size: 1em;
+ 		margin-top: -1%;
+ 		margin-bottom: -4%;
+ 		background-color: rgba(0, 0, 0, 0.0);
+
+ 	}
+
+/*----------------------- /Services section styles ---------------------------*/
+
+/*----------------------- Brands section styles ---------------------------*/
+.tall-row{
+	height:720px;
+}
+.kreis-brands{
+		height: 720px;
+		width: 1280px;
+		color: white;
+}
+.brands-logo-sm{
+	height: 154px;
+	background-size: 65%;
+}
+.brands-blur{
+	width: 100%;
+	height: 360px;
+    margin-top: 0.5%;
+} 
+.brands-lines{
+	background-size: 100%;
+	height: 360px;
+	width: 100%;
+	margin-top: -28.2%;
+	background-color: rgba(85, 85, 85, 0.34);
+}
+.brands-catalog{
+	height: 384px;
+	width: 100%;
+	max-height: 100%;
+	padding:-2%;
+	margin-top: -28.5%;
+}
+.brands-title{	
+	margin-top: -30.0%;
+}
+.brands-title h1{
+	font-size:5.1em;
+}
+.brands-catalog-main{
+	margin-left: -2%;	
+	height: 399px;
+}
+.brands-catalog-sidebar{
+	height: 100px;
+}
+.catalog-display{
+	height: 399px;	
+	margin-top: -29.3%;
+}
+.brands-logo{	
+	background-position-x:right; 
+	background-size: 90%;
+	height: 419px;
+	margin-bottom: -2%;
+	margin-top: -14.4% 
+}
+.invisible{
+	visibility:hidden;
+}
+.brands-catalog-btn-bg{
+	text-align: center;
+	padding-top: 9.9%;
+	margin-left: -3.6%;
+	margin-right: 3.6%;
+	height: 100%;
+	border: 1px solid rgba(0,255,255, 0.0);
+	background-color: rgba(0,255,255, 0.0);
+}
+.brand-tile{
+	opacity:0.5;
+}
+.brand-tile:hover{
+	opacity:1;
+}
+.brand-display-name{
+	
+}
+.brand-detail-logo{
+	margin-top: 49.25%;
+	margin-left: 22.3%;
+	width: 74%
+}
+.spacer {
+    margin-top: 1%; 
+}
+#details-close-btn{
+	font-size: 1.2em;
+	background-color: rgba(0, 0, 0, 0.1);
+	color: white;
+	border-color:  rgba(255, 255, 255, 0.1);
+}
+#details-close-btn:hover, #details-close-btn:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #D91C5C;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+	.hidden-brand{
+	}
+	.brand-icon{
+		width: 74%;
+	}
+	.brands-footer{
+		font-size: 1.1em;
+		margin-top: 1%;
+		margin-bottom: -0%;
+	}
+	#details-description p{
+		margin-top: -5%;
+		font-size: 1.1em;
+		color: #ccc;
+	}	
+	.details-right{
+		color:#ccc;
+		font-size: 1em;
+		padding-top: 4%;
+
+	}
+	.brands-map{
+		height: 143px;
+	}
+	.side-menu{
+		margin-top: 7%;
+	}
+	.brands-details-close-container{
+		margin-top: 10%
+	}
+/*----------------------- Brands section styles ---------------------------*/
+
+/*----------------------- Gallery section styles ---------------------------*/
+	.kreis-gallery{
+		height: 720px;
+		width: 1280px;
+		color: white;
+	}
+	.gallery-prev{}
+	.gallery-next{}
+	.gallery-nav{
+
+	}
+	.gallery-nav:hover, .gallery-nav:focus{}
+	.gallery-album-triger{
+		height: 100%;
+		background-size: 50%;
+	}
+	.kreis-gallery-logo{
+		margin-top: 4.5%;
+		margin-bottom: -1%;
+		height: 30%;
+		background-size: 70%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+		.gallery-album{
+			margin-top: -17%;
+			width: 1280px;
+			height: 200px;
+
+		}
+		.gallery-spacer-top{
+			height: 22%;
+		}
+		.social-icons-bar{
+			margin-top: 14%;
+			margin-bottom: -3%;
+			height:108px;
+			margin-left: 5%
+		}
+		.social-icon{
+			padding-top: 7%;
+			font-size: 1.3em;
+			background-size: 80%;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 100%;
+		}
+		.social-icon:hover, .social-icon:focus{
+			opacity: 1.0;
+		}
+		.social-fb{
+		}
+		.social-yt{
+		}
+		.social-tw{
+		}
+		.social-ins{
+		}
+		.social-lin{
+		}
+		.social-ggl{
+		}
+		.social-pin{
+		}
+		.gallery-blur{
+			margin-top: 3%;
+			height: 204px;
+			overflow: hidden;
+		}
+		.gallery-lines{
+		margin-top: -14.5%;	
+			height: 204px;
+		}
+		.gallery-btn-kitchen{
+			height: 90%;
+			width: 100%;
+		}
+		.gallery-btn-architects{
+			height: 90%;
+			width: 100%;
+		}
+		.gallery-btn-art{
+			height: 90%;
+			width: 100%;
+		}
+		.gallery-album-btn{
+			height: 100%;
+		}
+		.hidden-album{}
+		.hidden-block{}
+		.modal-content{
+			width: 100%;
+			height: 100%;
+			margin-top:30%;
+			margin-bottom:0%;
+			margin-left:-26%;
+		}
+		.modal-content h4{
+			font-size: 2.7em;
+		}
+		.modal-content p{
+			font-size: 1.3em;
+		}
+		.details-blur{
+			margin-bottom: -54%;
+			}
+	.gallery-footer{
+		font-size: 1.1em;
+		margin-top: -1.3%;
+	}
+	#fullview-mob{
+		z-index: -1;
+		opacity: 0.0;
+		font-size: 0em;
+		padding-top: 0px;
+		padding-left: 0px;
+		visibility: hidden;
+	}
+	.gallery-album-triger-mob{
+		height: 0px !important;
+		z-index: -1;
+		opacity: 0.0;
+		font-size: 0em;
+		padding-top: 0px;
+		padding-left: 0px;
+		visibility: hidden;
+	}
+	.gallery-spacer-bottom{
+		height: 17%
+	}
+	.gallery-menu-h2{
+		margin-top: -2px !important;
+		margin-bottom: 20px !important;
+		font-size: 1.5em;
+	}
+
+/*----------------------- / Gallery section styles ---------------------------*/
+
+/*-----------------------  Contact section styles ---------------------------*/
+		.kreis-contact{
+			margin:0px;
+			padding: 0px;
+			height: 720px;
+			width: 1280px;
+		}
+		.contact-container{
+			height: 720px;
+		}
+		.contact-left-top h1{
+			margin-top: 10%;
+			font-size: 4.7em;
+		}
+		.contact-blur{
+			height: 386px;
+		}
+		.contact-form{
+			height: 386px;
+			width: 100%;
+			margin-top: -51%;
+			padding-top: 1%;
+		}
+		.contact-map{
+		}
+		.contact-footer{
+			font-size: 1.1em; 
+			margin-top: -1.3%;
+			margin-bottom: -1%;
+		}
+		.contact-left-top{
+			height: 153px;
+		}
+		.contact-left-bottom{
+			height: 200px;
+		}
+		.contact-map{
+			height: 95%;
+			margin-top:2%;
+		}
+		.contact-logo-sm{
+			background-size: 60%;
+			height: 133px;
+		}
+		.contact-info{
+			font-size: 1.0em;
+		}
+		.contact-info-spacer{
+			height:  17px;
+		}
+		.contact-info-data{
+			height:  88px;
+		}
+		.contact-info-web{
+			height:  15px;
+		}
+		.contact-form-container{
+			height: 100%
+		}
+		.contact-data-block{
+			margin-top: -32%;
+			color: black;
+		}
+		.contact-send-btn{
+			height: 60px;
+			margin-top: 2%;
+			font-size: 1.1em;
+		}
+		 .contact-label{
+		 	font-family: 'HelveticaNueLTCom';
+		 	font-size: 1.1em;
+		 }		 
+		.contact-right-top{
+			font-size: 1.5em;
+			height: 330px;
+			width: 100%;
+		}
+		.contact-quote{
+			margin-top: 8.5%;			
+		}
+		.contact-quote p{
+			color:#D3D3D3;
+		}
+		.contact-quote p small{
+			float: right;
+			text-align: right;
+			color: #FFFFFF;
+		}
+		.contact-right-middle{
+			height: 340px;
+		}
+		.contact-right-bottom{
+			margin-top: 3.7%;
+			height: 80px;
+			width: 100%;
+		}
+		#contact_msg{
+			height: 158px !important;
+		}
+/*----------------------- / Contact section styles --------------------------*/

@@ -1,0 +1,943 @@
+/*
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+					hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+					hhhhhhyso+//////////////////////////////+osyhhhhhh
+					hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+					hhhhsso++////-.       .-//-.       .-////++++shhhh
+					hhhhsssssoo::////////`      `////////::++++++shhhh
+					hhhhssssssso+++osssss:      :ssssso++++++++++shhhh
+					hhhhsssssssso/``....++      ++....` :++++++++shhhh
+					hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+					hhhhssssssssssso      .::::.      +++++++++++shhhh
+					hhhhssssssssssss       `++`       +++++++++++shhhh
+					hhhhssssssssssss        ++        +++++++++++shhhh
+					hhhhssssssssssss.      `++`      .+++++++++++shhhh
+					hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+					hhhhssssssssssssssss+        /+++++++++++++++shhhh
+					hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+					hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+					hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+					hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+		
+	===============================================================================
+		@Version: 1.0
+		@Creation date: June 2017
+		@Autor: Created by Green Lyon 
+		@Owner: Kreis Industries 
+		@Description: General Style rules for Kreis Industries Web Site
+		@Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto.
+	===============================================================================		
+*/
+
+/*----------------------- Global styles ---------------------------*/
+@font-face{
+	font-family: 'HelveticaNueLTCom'; src: url('/assets/fonts/HelveticaNeueLTCom-Lt.ttf');
+}
+@font-face{
+	font-family: 'HelveticaNueTh'; src: url('/assets/fonts/HelveticaNeueLTCom-Th.ttf');
+}
+@font-face{
+	font-family: 'HelveticaNueMd'; src: url('/assets/fonts/HelveticaNeueLTCom-Md.ttf');
+}
+@font-face{
+	font-family: 'HelveticaNueBd'; src: url('/assets/fonts/HelveticaNeueLTCom-Bd.ttf');
+}
+
+
+@font-face{
+	font-family: 'SukhumvitSet'; src: url('/assets/fonts/SukhumvitSet-Thin.ttf');
+}
+
+@font-face{
+	font-family: 'SukhumvitSetLt'; src: url('/assets/fonts/SukhumvitSet.ttc');
+}
+@font-face{
+	font-family: 'SukhumvitSetTxt'; src: url('/assets/fonts/SukhumvitSet-Text.ttf');
+}
+@font-face{
+	font-family: 'Alvenir'; src: url('../fonts/AvenirNextLTPro-It.otf');
+}
+.rc-anchor-dark{
+	background-color:rgba(34, 34, 34, 0) !important; 
+}
+	html, body{
+		height: 100%;
+		width: 100%;
+	}
+	.component-load{
+		background-image: url('/assets/imgs/iconos-logos/Preloader_128.gif');
+		background-repeat:repeat-x;
+		background-size: 10%;
+	}
+	h2{
+		font-family: 'HelveticaNueLTCom';
+		text-transform: uppercase;
+	}
+	agm-map{
+			height: 100%;
+		}
+	app-navi{
+		z-index: 9999;
+	}
+	.section-title, h1{
+		color: #FFFFFF;
+		font-family: 'SukhumvitSet';
+		text-transform: uppercase;
+		font-weight: lighter;
+			
+	}
+	footer{
+		text-align: center;
+		color:#FFFFFF;
+	}
+	footer a{
+		text-decoration: none;
+		color:#FFFFFF;
+	}
+	footer a:hover, footer a:active, footer a{
+		color:#FFFFFF;
+	}
+	.navbar a{	text-transform: uppercase;
+	z-index: 9999 !important;
+	font-family: 'HelveticaNueLTCom';
+	padding-top: 4px;
+	padding-right: 40px;
+	padding-left: 14px;
+	color: #FFFFFF;
+	}
+	 .navbar a:active, .navbar a:hover, .navbar li a:hover, .navbar li a:active  {
+		text-decoration: none;
+		color: #D91C5C;
+	}
+	
+	.navbar .nav-link{
+		z-index: 9999 !important;
+		background-color: rgba(0,0,0, 0.0);
+	}
+	.navbar .nav-link:hover, .navbar .nav-link:focus{
+		background: rgba(255,255,255, .3);
+	}
+	.green-link{
+		font-family: 'Alvenir'
+	}
+	.nav-container{
+		padding-right: 3%;
+	}
+	.nav ul li {
+		padding: 2%;
+		z-index: 9999;
+	}
+	.nav ul li a:hover {
+		text-decoration: none;
+		color: #D91C5C;
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+	.nav ul li a:focus{
+		text-decoration: none;
+		color: #D91C5C;
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+	.nav ul li a:active {
+		text-decoration: none;
+		color: #D91C5C;
+		background-color: rgba(255, 255, 255, 0.3);
+
+	}
+	.active{
+		color: #D91C5C !important;
+	}
+/*----------------------- Global styles ---------------------------*/
+
+/*----------------------- NaviComponent styles ---------------------------*/
+
+	.kreis-icon-caret{
+		 max-width: 50%;
+		 margin-top: -10%;
+		 margin-left: auto;
+		 margin-right: auto;
+	}
+	.icon-dots-three-vertical:hover, .icon-dots-three-vertical:focus  {			
+		color: #D91C5C;
+	}
+
+	html input[disabled]{
+		cursor: wait;
+		opacity: 0.3;
+	}
+	html input[disabled]:focus, html input[disabled]:hover{
+		cursor: wait;
+	}
+/*----------------------- NaviComponent styles ---------------------------*/
+
+/*----------------------- loading page styles ---------------------------*/
+
+	.kreis-loading{
+		background-size: 100%;
+		background-position: center center;
+		background-attachment: fixed;
+		background-repeat:repeat;
+		display: table;
+		height: 100%;
+		width: 100%;
+		color: white;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizelegibility;
+		overflow: hidden;	
+
+	}
+
+/*----------------------- loading page styles ---------------------------*/
+
+
+
+
+/*----------------------- Welcome section styles ---------------------------*/
+.welcome-title{
+}
+.kreis-welcome{
+	background-image: url('../imgs/backgrounds/kreis-welcome-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat:no-repeat;
+	position: relative;
+	display: table;
+    min-height: 100% !important;
+	min-width: 100% !important;
+	max-height: 100%;
+	max-width: 100%;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	overflow: hidden;
+}
+.welcome-blur{
+	opacity : 0.9;
+	background-image: url('../imgs/backgrounds/kreis-welcome-bg.jpg') ;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position-x: right;
+	background-position-y: center;
+	min-width: 100% !important;
+	min-height: 50% !important;
+	max-height: 50%;
+	max-height: 50%;
+	margin-top: -0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	display: inline-block;
+	border: solid 0.1em rgba(0, 0, 0, 1);
+	background-color: rgba( 0, 0, 0, 0.3);
+	-webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);
+    overflow: hidden!important;
+}
+.welcome-lines{
+	opacity: 0.7;
+	background-image: url('../imgs/backgrounds/linespatterns/welcome_lines.png') ;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	min-width: 100% !important;
+	min-height: 50% !important;
+	max-height: 50%;
+	max-height: 50%;
+	display: inline-block;
+	background-color: rgba( 0, 0, 0, 0.27);
+}
+.welcome-logo-container{}
+.welcome-logo{}
+.navbar{}
+.welcome-footer{}
+/*----------------------- Welcome section styles ---------------------------*/
+
+/*----------------------- About section styles ---------------------------*/
+	.kreis-about{	
+	min-width: 100% !important;
+	min-height: 100% !important;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	display: table;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	overflow: hidden;
+    background-color:  rgba(88, 89, 91, 1);;
+}
+.about-container{
+	min-height: 100% !important;
+	overflow: hidden;
+    border: solid 2px rgba( 0, 255, 0, 0.0);
+    background-color: rgba( 0, 255, 0, 0.0);
+}
+.about-kreis{
+	background-color: #020202;
+	background-image: url('../imgs/backgrounds/Mikkael-Kreis-About-left.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.about-logo-container{
+	z-index: 5555;
+	text-align: center;
+	width: 100%;
+	height: 50%;
+    border: 0px solid #DA1C5C;
+	display: inline-block;
+	margin-top: -29.5%;
+	display: inline-block;
+	overflow: hidden;
+}
+.about-logo{
+	background-image: url('/assets/imgs/iconos-logos/HalfKreis-icon-full-color-large.png');
+	background-repeat: no-repeat;
+	z-index: 5555;
+	min-height: 100%;
+}
+.about-blur{
+	background-image: url('../imgs/backgrounds/kreis-about-bg.jpg') ;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center center; 
+	display: inline-block;
+	-webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);
+    background-color: rgba( 0, 0, 0, 0.5);
+    overflow: hidden!important;
+}
+.about-lines{
+	opacity: 0.8;
+	background-image: url('../imgs/backgrounds/linespatterns/about_lines.png') ;
+	background-color: rgba(200, 200, 200, 0.3);
+}
+.about-quote{
+	z-index: 8888;
+	font-family: 'SukhumvitSet';
+	color: #fff;
+	background-color: rgba(0, 0, 54, 0.0);
+	border: solid 0px #F2D5D5;
+}
+.about-quote p{
+	color:#D3D3D3;
+}
+.about-quote p small{
+	float: right;
+	text-align: right;
+	color: #FFFFFF;
+}
+.about-bio h3, .about-philosopy h3{
+	z-index: 8888;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: 'SukhumvitSet';
+}
+.about-bio p, .about-philosopy p{
+	z-index: 8888;
+	text-align: justify;
+	font-family: 'HelveticaNueLTCom';
+	color: black;
+	text-align: left;
+}
+.about-logo-sm{
+	background-image: url('/assets/imgs/iconos-logos/Kreis-gry-scale-small.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(103, 57, 219, 0.0);
+}
+.about-footer{
+	z-index: 9999;
+	align-content: center;
+}
+.about-top-left{
+	border: 1px solid rgba(120, 50, 240, 0);
+}
+.about-top-right{
+	text-align: left;
+	border: 1px solid rgba(0, 255, 110, 0.0);
+	background-color: rgba(0, 0, 0, 0.0);
+}
+.about-bottom-right{
+	text-align: left;
+	border: 1px solid rgba(0, 110, 255, 0.0);
+	background-color: rgba(168, 168, 0, 0.0);
+}
+/*----------------------- /About section styles ---------------------------*/
+
+/*----------------------- Services section styles ---------------------------*/
+.kreis-services{
+	min-width: 100% !important;
+	min-height: 100% !important;
+	background-image: url('../imgs/backgrounds/Services-industrias-Kreis.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	display: table;
+	height: 100%;
+	width: 100%;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+		overflow: hidden;			
+}
+.services-blur{
+	background-image: url('../imgs/backgrounds/Services-industrias-Kreis.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	-webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+	background-blend-mode: multiply;
+	border: 1px solid rgba(0, 0, 0, 0);
+}
+.services-lines{
+	opacity: 0.8;
+  	background-image: url('../imgs/backgrounds/linespatterns/services_lines.png') ;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	background-position:center center;
+	border: 0px solid rgba(255, 255, 255, 0.2);
+	overflow: visible;
+}
+.services-title{
+	border: 1px solid rgba(0, 255, 0, 0.0);
+}
+.services-logo-sm{
+	border: 1px solid rgba(0, 255, 0, 0.0);
+	background-image: url('/assets/imgs/iconos-logos/Kreis-Logo-White.png');
+	background-size: 85%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.services-logo-container{
+	z-index: 8888;
+	background-image: url('/assets/imgs/iconos-logos/Kreis-icon-full-color-large-rigt.png');
+	background-size: 84%;
+	background-position: initial;
+	background-repeat: no-repeat;
+}
+.services-content-bg{
+	z-index: 2;
+	background-color: rgba(0,0,0, 1);
+}
+.service{
+	color: #D3D3D3;
+}
+.service h3{
+	font-family: 'HelveticaNueLTCom';
+	text-transform: uppercase;
+}
+.service p{
+	font-family: 'SukhumvitSet';
+}
+.services-last{
+	border: 1px solid rgba(255, 255, 0, 0.0);
+}
+.services-legend p{
+	font-family: 'HelveticaNueLTCom';
+}
+.services-footer{
+	font-size: 1.5em;
+	}
+/*----------------------- /Services section styles ---------------------------*/
+
+/*----------------------- Brands section styles ---------------------------*/
+.tall-row{
+	height:100%;
+}
+.kreis-brands{
+	background-image: url('../imgs/backgrounds/brands.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	display: table;
+	min-width: 100% !important;
+	min-height: 100% !important;
+	height: 100%;
+	width: 100%;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	overflow: hidden;	
+}
+.brands-logo-sm{
+	background-image: url('/assets/imgs/iconos-logos/Kreis-Logo-White.png');
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	border: 0px solid white;
+	background-color: rgba(255,255,0, 0.0);
+}
+.brands-blur{
+ 	background-image: url('../imgs/backgrounds/brands.jpg') ;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	width: 100%;
+	display: inline-block;
+	border: solid 2px rgba(50, 50, 50, 1);
+	background-color: rgba( 0, 0, 0, 0.34);
+ 	-webkit-filter: blur(12px);
+  	-moz-filter: blur(12px);
+  	-o-filter: blur(12px);
+  	-ms-filter: blur(12px);
+  	filter: blur(12px);
+  	overflow: hidden;
+} 
+.brands-lines{
+	opacity: 0.7;
+  	background-image: url('../imgs/backgrounds/linespatterns/brands_lines.png') ;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	width: 100%;
+	display: inline-block;
+	background-color: rgba( 72, 69, 69, 0.0.09);
+	border: solid 0.1em rgba( 200, 200, 200, 0.7);
+	overflow: hidden;
+}
+.brands-catalog{
+	width: 100%;
+	max-height: 50%;
+	display: inline-block;
+	border: 1px solid rgba(0,0,255, 0.0);
+	background-color: rgba(0,0,255, 0.0);
+	overflow: hidden;
+	padding:-2%;
+}
+.brands-title{
+	border: 1px solid rgba(127,0,127, 0.0);
+	background-color: rgba(127,0,127, 0.0);
+}
+.brands-title h1{
+	font-size:6.5em;
+}
+.brands-catalog-main{	
+	border: 0px solid white;
+	background-color: rgba(255,0,0, 0.0);
+}
+.brands-catalog-sidebar{
+	border: 0px solid white;
+	background-color: rgba(0,255,0, 0.0);
+}
+.catalog-display{	
+	border: 0px solid white;
+	background-color: rgba(128,127,0, 0.0);
+}
+.brands-logo{
+	background-image: url('/assets/imgs/iconos-logos/Kreis-icon-full-color-large-upper-left.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid rgba(0,255,0, 0.0);
+	background-color: rgba(0,255,0, 0.0);
+	overflow:hidden;
+}
+.invisible{
+	visibility:hidden;
+}
+.brands-catalog-btn-bg{
+	opacity:0.6;
+	border: 1px solid rgba(0,255,255, 0.0);
+	background-color: rgba(0,255,255, 0.0);
+}
+.brand-btn-sm{
+	opacity: 0.2;
+}
+.brands-catalog-btn-bg:focus, .brands-catalog-btn-bg:hover, .brand-btn-sm:focus, .brand-btn-sm:hover{		
+	opacity: 0.9;
+}
+.brand-tile{
+	opacity:0.6;
+}
+.brand-tile:hover{
+	opacity:1;
+}
+.brand-display-name{
+	
+}
+.brand-detail-logo{
+}
+.spacer {
+}
+#details-close-btn{
+	background-color: rgba(0, 0, 0, 0.1);
+	color: white;
+	border-color:  rgba(255, 255, 255, 0.1);
+}
+#details-close-btn:hover, #details-close-btn:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #D91C5C;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+.hidden-brand{
+	height: 1px;
+	width: 1px;
+}
+.brand-icon{
+	margin-left: auto;
+	margin-right: auto;
+}
+.brands-footer{}
+.details-right{}
+.brands-map{}
+.icon .icon-check h6{
+	font-family:'SukhumvitSet' !important;
+	font-weight:bold !important;
+}
+/*----------------------- Brands section styles ---------------------------*/
+
+/*----------------------- Gallery section styles ---------------------------*/
+.kreis-gallery{
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	display: table;
+	min-height: 100% !important;
+	min-width: 100% !important;
+	height: 100%;
+	width: 100%;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	overflow: hidden;	
+	background-color: rgba(217, 28, 92, 1);
+}
+.gallery-prev{
+	background-color: rgba(140, 150, 0, 0.0);
+}
+.gallery-next{
+	background-color: rgba(140, 150, 0, 0.0);
+}
+.gallery-nav{
+	text-align: center;
+	opacity: 0.5;
+	font-size: 5em;
+	border: 1px solid rgba(255, 255, 255, 0.0);
+	background-color: rgba(0, 255, 255, 0.0);
+}
+.gallery-nav:hover, .gallery-nav:focus, .gallery-album-triger:hover, .gallery-album-triger:focus, .social-icon:hover, .social-icon:focus, .gallery-album-btn:focus, .gallery-album-btn:hover{
+	opacity: 1;
+}
+.gallery-album-triger{
+	opacity: 0.4;
+	background-image: url('/assets/imgs/iconos-logos/album-icon.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	border: 1px rgba(255, 255, 255, 0.0);
+	background-color: rgba(255, 255, 0, 0.0);
+}
+
+.kreis-gallery-logo{
+	background-image: url('/assets/imgs/iconos-logos/Kreis-Logo-White.png');
+	border: 1px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 0, 255, 0);
+}
+.gallery-album{
+	border: 1px solid rgba(150, 120, 255, 0.0);
+	background-color: rgba(150, 120, 255, 0.0);
+}
+.social-icons-bar{
+	border: 1px rgba(0, 120, 0, 0.0);
+	background-color: rgba(0, 120, 0,0.0);
+}
+.gallery-spacer-top{
+	background-color: rgba(0, 120, 0,0.0);
+}
+.social-icon{
+	opacity: 0.6;
+	text-transform: uppercase;
+	text-align: center;
+	border: 4px rgba(0, 0, 0, 0.0);
+	background-color: rgba(150, 150, 150, 0.0);}
+}
+.social-icon:hover, .social-icon:focus{
+	color: rgba(217, 28, 92, 1);
+}
+.social-fb{
+	background-image: url('/assets/imgs/iconos-logos/facebook-icon-small.png');
+}
+.social-yt{
+	background-image: url('/assets/imgs/iconos-logos/youtube-icon-small.png');
+}
+.social-tw{
+	background-image: url('/assets/imgs/iconos-logos/Tweetter-icon-small.png');
+}
+.social-ins{
+background-image: url('/assets/imgs/iconos-logos/Instagram-icon-small.png');
+	}
+.social-lin{
+	background-image: url('/assets/imgs/iconos-logos/LinkedIn-icon-small.png');
+}
+.social-ggl{
+	background-image: url('/assets/imgs/iconos-logos/Google+-icon-small.png');
+}
+.social-pin{
+	background-image: url('/assets/imgs/iconos-logos/Pinterest-icon-small.png');
+}
+.gallery-blur{	
+	opacity: 1;
+	background-size: cover;
+	background-position: center;		
+	background-color: rgba(145, 150, 0, 0.0);
+	border: 2px solid rgba(145, 150, 0, 0.0);
+	-webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);
+}
+.gallery-lines{
+	background-image: url('../imgs/backgrounds/linespatterns/album_lines.png'); 
+	background-position: center;
+	background-size: cover;			
+	background-color: rgba(80, 80, 80, 0.27);
+	border: 1px solid rgba(255, 255, 255, 1.0);
+}
+.gallery-btn-kitchen{
+	background-size: cover;
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-1.jpg');
+}
+.gallery-btn-architects{
+	background-size: cover;
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-1.jpg');
+}
+.gallery-btn-art{
+	background-size: cover;
+	background-image: url('/assets/imgs/GalleryImages/KreisArts_Crafts/Kreis-arts-and-krafts-1.jpg');
+}
+.gallery-album-btn{
+	opacity: 0.4;
+	color:#D3D3D3;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.0);
+	border: 2px solid rgba(0, 0, 0, 0.0);
+}
+.hidden-album{
+	opacity: 0;
+	visibility: hidden;
+	height: 1px;
+	width: 1px;
+}
+.hidden-block{
+	opacity: 0;
+	visibility: hidden;
+}
+.modal-content{
+	background-size: cover;
+	font-family: 'HelveticaNueLTCom';
+	border: 0px solid white;
+	color:#FFFFFF; 
+	background-color: rgba(255, 255, 255, 0.2)!important;
+}
+.modal-body{
+	border:0px solid white !important ;
+}
+.modal-content h4{
+	text-transform: uppercase;
+}
+.modal-content h4, .modal-content p{
+	opacity: 1;
+}
+.details-blur{
+	-webkit-filter: blur(12px);
+    -moz-filter: blur(12px);
+    -o-filter: blur(12px);
+    -ms-filter: blur(12px);
+    filter: blur(12px);
+}
+.modal-dialog{
+	background-color: rgba(0, 0, 0, 0.27)!important;
+}
+.close-details{
+	color:#FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2)!important;
+	text-transform: uppercase;
+	font-family: 'HelveticaNueLTCom';
+}
+.btn:focus, .btn:hover, .close-details:hover, .close-details:focus{
+	color:#D91C5C;
+}
+/*----------------------- / Gallery section styles ---------------------------*/
+
+/*-----------------------  Contact section styles ---------------------------*/
+		.kreis-contact{
+			background-image: url('../imgs/backgrounds/Contact-industrias-Kreis.jpg');
+			background-size: cover;
+			background-position: center center;
+			background-attachment: fixed;
+			background-repeat:no-repeat;
+			background-color: rgba(88, 89, 91, 1);
+			display: table;
+			min-height: 100%;
+			min-width: 100%;
+			height: 100%;
+			width: 100%;
+			color: white;
+			-webkit-font-smoothing: antialiased;
+			text-rendering: optimizelegibility;
+			overflow: hidden;				
+		}
+		.contact-container{
+			margin-bottom: -2%;
+			height: 100%;
+			background-color: rgba(255, 0, 0, 0);
+			overflow: hidden;
+		}
+		.contact-title{
+			background-color: rgba(255, 255, 255, 0.2);
+			border: 1px solid  rgba(255, 255, 255, 0.2);
+		}
+		.contact-blur{
+			opacity: 1;
+		background-image: url('../imgs/backgrounds/Contact-industrias-Kreis.jpg');
+			background-size: 100%;
+			background-position: center;
+			background-attachment: fixed;
+			margin-left: -2%;
+			-webkit-filter: blur(12px);
+		    -moz-filter: blur(12px);
+		    -o-filter: blur(12px);
+		    -ms-filter: blur(12px);
+		    filter: blur(12px);
+			background-color: rgba(0, 0, 0, 0.0);
+			border: 4px solid  rgba(0, 0, 0, 1);
+			overflow: hidden;
+		}
+		.contact-form{
+			background-image: url('../imgs/backgrounds/linespatterns/contact_lines.png');
+			background-size: cover;
+			background-position: center;
+			background-attachment: scroll;
+			margin-left: -2%;
+			background-color: rgba(255, 255, 255, 0.3);
+			border: 1px solid  rgba(255, 255, 255, 0.8);
+		}
+		.contact-map{
+			background-color: rgba(0, 0, 255, 0.0);
+			border: 1px solid  rgba(0, 0, 255, 0.0);
+		}
+		.contact-footer{
+			font-size: 1.5em;
+		}
+		.contact-left-top{
+			margin-left: -2%;
+			background-color: rgba(255, 0, 255, 0.0);
+			border: 1px solid  rgba(255, 0, 255, 0.0);
+		}
+		.contact-left-bottom{
+			margin-left: -2%;
+			background-color: rgba(0, 255, 255, 0.0);
+			border: 1px solid  rgba(0, 255, 255, 0.0);
+		}
+		.contact-map{
+			/*background-image: url('/assets/imgs/iconos-logos/maps-mock.png');*/
+			background-size: cover;
+			background-position: center;
+			background-color: rgba(255, 0, 0, 0.0);
+			border: 1px solid  rgba(0, 0, 0, 0);
+		}
+		.contact-logo-sm{
+			opacity: 1;
+			background-image: url('/assets/imgs/iconos-logos/Kreis-logo-full-color-small.png');
+			background-size: 70%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-color: rgba(255, 0, 0, 0.0);
+			border: 1px solid  rgba(0, 0, 0, 0);
+		}
+		.contact-info-spacer{}
+		.contact-info{
+			opacity: 1;
+			color:#58595B;
+			font-family: 'SukhumvitSet';
+			border: 1px solid  rgba(255, 255, 255, 0.0);
+		}
+		.contact-info-data{}
+		.contact-info-web{}
+		.contact-form-container{
+			background-color: rgba(255, 0, 0, 0.3);
+			border: 1px solid  rgba(0, 0, 0, 1);
+		}
+		.contact-data-block{}
+		.contact-send-btn{
+			font-family: 'HelveticaNueLTCom';
+			text-align: center;	
+			text-transform: uppercase;
+			background-color: rgba(255, 255, 255, 0.0);	
+			border: 1px solid rgba(255, 255, 255, 0.0);	
+		}
+		 .contact-label{
+			font-family: 'HelveticaNueLTCom';
+			text-transform: uppercase;	
+		}
+		.form-control{
+			color:  rgba(0, 0, 0, 1) !important;
+			font-family: 'HelveticaNueLTCom';
+			background-color: rgba(255, 255, 255, 0.1)!important;
+			border: 0px !important;
+			border-radius: 0px!important;
+			box-shadow: none!important;
+		}
+		textarea{
+			box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+			border: 2px rgba(100, 100, 100, 0.3) !important;
+			background-color: rgba(255, 255, 255, 0.2)!important;
+			font-family: 'HelveticaNueLTCom';
+			color: black;			
+		}
+		.contact-right-top{
+			background-color: rgba(127, 145, 54, 0.0);
+			border: solid 0px #000000;
+		}
+		.contact-right-middle{
+			background-color: rgba(25, 169, 235, 0.0);
+			border: solid 0px #00FF00;			
+		}
+		.contact-right-bottom{
+			background-color: rgba(127, 145, 54, 0.0);
+			border: solid 0px #000000;
+		}
+		.contact-quote{
+			font-family: 'SukhumvitSet';
+			color: #fff;
+			background-color: rgba(127, 145, 54, 0.0);
+			border: solid 0px #F2D5D5;
+		}
+		.contact-quote p{
+			color:#D3D3D3;
+		}
+		.contact-quote p small{
+			float: right;
+			text-align: right;
+			color: #FFFFFF;
+		}
+		.contact-map-mob{
+			width:0px;
+			height: 0px;
+		}
+/*----------------------- / Contact section styles --------------------------

@@ -1,0 +1,93 @@
+{
+  "NAVY": {
+    "WELCOME": "Welcome",
+    "ABOUT": "About",
+    "SERVICES": "Services",
+    "BRANDS":"Brands",
+    "SUBSIDIARIES":"Subsidiaries",
+    "CLIENTS":"Clients",
+    "CONTACT":"Contact",
+    "LANG":"Español"
+  },
+
+  "WELCOME":{
+  	"TITLE": "Welcome"
+  },
+
+  "ABOUT":{
+  	"TITLE": "About",
+  	"QUOTE": "\"I was thought that those who think the way I do are crazy, it was then that I decided to continue like that... Crazy!\"",
+  	"BIO": "I am a multidisciplinary artist born and raised in the cosmopolitan city of Guadalajara, Mexico, and its beautiful countryside. My work, incorporates the beauty of the Mexican culture and traditions, modern manufacturing techniques and innovative processes, to design, restore and create amazing pieces of art, furniture, buildings and living spaces.",
+  	"PHIL_HDR":"Philosophy",
+  	"PHIL_TXT":"Love and passion are the bases of our creations. With each piece and each space we strive to evoke emotions which transport the spectator into a higher dimension. What characterizes us, is innovation, originality; a touch of glamour and an implicit surrealism embedded in every work and in every project. We are timeless and we love freedom."
+  },
+  "SERVICES":{
+  	"TITLE": "Services",
+  	"ARCH_HDR": "Architecture",
+  	"ARCH_TXT": "We are a buffet of architecture specialized in projects like beach houses and restoration of buildings and historic monuments.",  	
+  	"FID_HDR": "Furniture & Interior Design",
+  	"FID_TXT": "We specialized in high end residential and hotels projects, providing support to architects and interior designers through the production of exclusive pieces and projects.",
+  	"VA_HDR": "Visual Arts",
+  	"VA_TXT": "We create artistic pieces like; paintings, sculptures, engravings and photographs to complement the esthetic and perfection of each space.",
+  	"LEGEND": "“A percentage of all our profits is donated to the Kreis Foundation, to help and support in the education of disadvantaged children and youths throughout the world. ”"
+  },
+  "BRANDS":{
+    "TITLE": "Brands",
+    "KITC_HDR": "Kitchens",
+    "KITC_TXT": "We design and build high end quality kitchens for those who seek to convert their kitchens into a multidisciplinary spaces art and magic coexist and influence their daily activities.",
+    "KITC_PATH":"/assets/imgs/GalleryImages/KreisKitchens/",
+    "KITC_ALBUM": "KreisKitchens-",
+    "KITC_MAX": "15",   
+
+    "ARCH_HDR": "Arquitecture",
+    "ARCH_TXT": "We are an architecture firm specialized in projects like beach houses, boutique hotels and restoration of historic buildings and  monuments. We create and transform spaces to transport our clients into a minimalistic and surreal world.", 
+    "ARCH_PATH":"/assets/imgs/GalleryImages/KreisArchitecture/",
+    "ARCH_ALBUM": "Kreis-architects-",
+    "ARCH_MAX": "24",  
+
+    "ARTS_HDR": "Arts & Crafts",
+    "ARTS_TXT": "We are a design firm specialized in the creation of furniture and art, through the abstraction of everyday life experiences to evoke emotions unlike any others in our clients and spectators.",
+    "ARTS_PATH":"/assets/imgs/GalleryImages/KreisArts_Crafts/",
+    "ARTS_ALBUM": "Kreis-arts-and-krafts-",
+    "ARTS_MAX": "7",
+    
+    "SACRO_HDR": "Sacro",
+    "SACRO_TXT": "Using materials such as wood, bronze, gold and silver, among others, we create pieces of sacred art with the main purpose of rescuing the traditions and religious customs of the world. We manufacture custom-made pieces for both religious and residential spaces and commercials.",
+    "SACRO_PATH":"/assets/imgs/GalleryImages/KreisSacro/",
+    "SACRO_ALBUM": "Sacro-",
+    "SACRO_MAX": "22",
+    
+    "CLOSE": "CLOSE"
+  },
+  "SUBSIDIARIES":{
+    "TITLE": "Subsidiaries",
+    "INM_HDR": "Industrial Mueblera",
+    "INM_TXT": "We are a mexican company with more than 55 years experience. We are dedicated to the design and constructuion of residential and commercial furniture.",   
+    "CON_HDR": "Cocinas Nacionales",
+    "CON_TXT": "We arededicated to the production of kitchens. Each model is tailored to the needs of our clients.",
+    "LSM_HDR": "Landscape México",
+    "LSM_TXT": "We are dedicated to the creation of natural spaces, we design and execute international projects of realistic landscaping in medium and grand scale, utilizing the latest technologies and techniques for sustainability and permaculture.",
+    "PRG_HDR": "Pérgolas México",
+    "PRG_TXT": "We build pergolas and rooftop gardens to enjoy the open spaces.",
+    "PIN_HDR": "Pincelia",
+    "PIN_TXT": "We are an online art gallery dedicated to the sale of art puedes from renowned and emerging international artist.",
+    "SIM_HDR": "Sillas México",
+    "SIM_TXT": "We are a company specialized in the commercialization of chairs produced in México.",
+    "FIVA_HDR": "Fiva",
+    "FIVA_TXT": "Fiesta del Vino y el Arte (Wine and art fair). is an annual event, organized by Kreis Industries with the objetive of promoting mexican wine and artist throughout exhibitions and conferences."
+  },
+  "CLIENTS":{
+    "TITLE": "Clients"
+  },
+  "CONTACT":{
+    "TITLE": "Contact",
+    "NAME_LABEL": "Name",
+    "SUBJECT_LABEL": "Subject",
+    "MAIL_LABEL": "E-MAIL",
+    "MAIL": "e-mail: contact@kreisindustries.com",
+    "PHONE": "",
+    "WEB": "www.kreisindustries.com",
+    "ADRESS": "Calzada of the Aurora S / N, Aurora, Santa Cecilia, 37710 San Miguel of Allende, Gto.",
+    "QUOTE": "\"If after you have tried to arrive several times through the same road and always finiched behind, what are you waiting to fly!?\""
+  }
+}

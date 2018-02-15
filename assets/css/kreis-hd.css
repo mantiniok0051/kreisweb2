@@ -1,0 +1,952 @@
+/*
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+					hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+					hhhhhhyso+//////////////////////////////+osyhhhhhh
+					hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+					hhhhsso++////-.       .-//-.       .-////++++shhhh
+					hhhhsssssoo::////////`      `////////::++++++shhhh
+					hhhhssssssso+++osssss:      :ssssso++++++++++shhhh
+					hhhhsssssssso/``....++      ++....` :++++++++shhhh
+					hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+					hhhhssssssssssso      .::::.      +++++++++++shhhh
+					hhhhssssssssssss       `++`       +++++++++++shhhh
+					hhhhssssssssssss        ++        +++++++++++shhhh
+					hhhhssssssssssss.      `++`      .+++++++++++shhhh
+					hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+					hhhhssssssssssssssss+        /+++++++++++++++shhhh
+					hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+					hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+					hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+					hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+		
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: CSS style for Kreis Industries Website  HD displays              ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+*/
+footer p{margin-top: 0%;}
+ h6{
+	font-family:'HelveticaNueLTCom' !important;
+	font-weight:bold !important;
+	font-size: 2em !important;
+	text-align: center;
+	text-transform: uppercase;
+}
+.icon-check{
+
+	padding-top: 2%;
+	font-size: 2em !important;
+}
+.alert{
+	margin-bottom: 1%!important;
+	margin-top: -8%!important;
+}
+/*----------------------- Welcome section styles ---------------------------*/
+.welcome-title{
+	margin-top: -28%;
+	margin-left: 1%;
+	font-size: 7.5em;
+}
+	agm-map{
+				height: 100%;
+			}
+.hidden-md, .services-title-mob, .hidden-lg, .visible-ipadv{
+	width: 1px !important;
+	z-index: -1 !important;
+	height: 1px !important;
+	visibility: hidden;
+}
+.kreis-welcome{
+	height: 1080px;
+	width: 1920px;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	overflow: hidden;
+}
+.welcome-blur{
+	width: 1920px;
+	height: 540px;
+	max-height: 50%;
+	margin-top: -0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	border: solid 2px rgba(0, 0, 0, 1);
+}
+.welcome-lines{
+	width: 1920px;
+	height: 540px;
+	max-height: 50%;
+	margin-top: -28.1%;
+	border: solid 0.1em rgba( 230, 230, 230, 0.7);
+}
+.welcome-logo-container{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -9%;
+}
+.welcome-logo{
+ width:36%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.navbar{
+	font-size: 1.5em;
+	padding-right:2%;
+}
+.welcome-footer{
+	margin-top: 0.5%;
+	font-size: 1.5em;
+}
+/*----------------------- Welcome section styles ---------------------------*/
+
+/*----------------------- About section styles ---------------------------*/
+	.kreis-about{
+	min-height: 100%;
+	min-width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+		height: 1080px;
+		width: 1920px;
+	}
+	.about-container{
+		min-height: 100% !important;
+		height: 1079px;
+	}
+	.about-kreis{
+		z-index: 2222;
+		background-image: url('../imgs/backgrounds/Mikkael-Kreis-About-left.jpg');
+	}
+	.about-logo-container{
+		z-index: 5555;
+		height: 580px;
+		margin-top: -30%;
+		margin-bottom: -2%;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.about-logo{
+		height: 580px;
+		margin-bottom: -2%;
+		background-size: 100%;
+		background-position: bottom;
+	}
+	.about-blur{
+		height: 1079px;
+		max-height: 100%;
+		background-position: right bottom;
+		overflow: hidden  !important;
+	}
+	.about-lines{
+		margin-top: -56.3%;
+		margin-left: 50%;
+	}
+	.about-quote{	
+		margin-top: 20%;
+		margin-left: 2%;
+		text-align: left;
+	}
+	.about-quote p{
+		color:#D3D3D3;
+	}
+	.about-quote p small{
+		float: right;
+		text-align: right;
+		color: #FFFFFF;
+	}
+	#about-title{
+	    margin-left: 2%;
+	    margin-top: 14%;
+	    display: inline-block;
+	    font-size: 7.5em;
+    }
+	.about-bio{
+		margin-top: 5%;
+	}
+	.about-bio h3, .about-philosopy h3{
+		font-size: 2.5em;
+	}
+	.about-bio p, .about-philosopy p{
+		font-size: 1.6em;
+	}
+
+	.about-logo-sm{
+		height: 100%;
+		background-size: 80%;
+	}
+
+	.about-content{
+		margin-top: -53%; 
+	}
+	.about-footer{
+		z-index: 9999;
+		margin-top: -1%;
+		font-size: 1.5em;
+	}
+	.about-top-left{
+		height: 500px;
+		font-size: 3.3em;
+	}
+	.about-top-right{
+		height: 600px;
+	}
+	.about-bottom-right{
+		height: 400px
+	}
+/*----------------------- /About section styles ---------------------------*/
+
+
+/*----------------------- Services section styles ---------------------------*/
+	.kreis-services{
+		max-width: 100% !important;
+		max-height: 100% !important;
+		height: 1080px;
+		width: 1920px;	
+		overflow: hidden !important;			
+	}
+	.services-blur{
+		margin-bottom: -25%;
+		margin-top: 0%;
+		height: 480px;
+		border: 0px solid rgba(255, 0, 0, 0.3);
+		-webkit-filter: blur(30px);
+	    -moz-filter: blur(30px);
+	    -o-filter: blur(30px);
+	    -ms-filter: blur(30px);
+	    filter: blur(30px);
+	    overflow: hidden !important;
+	}
+	.services-lines{
+		opacity: 0.8;
+		margin-bottom: -20%;
+		margin-top: -0.1%;
+		height: 480px;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, 0.33);
+		background-position-x: right;
+		background-position-y: bottom; 
+	}
+	.services-title{
+		margin-top: 12%;
+	}
+	.services-title h1{
+		font-size: 7em;
+		margin-top: 7%;
+		margin-left: 35%;
+	}
+	.services-logo-sm{
+		height: 300px;
+		background-size: 70%;
+		margin-bottom:-2%;
+		margin-top: 4.5%;
+	}
+	.services-logo-container{
+		margin-left: 0%;
+		margin-top: -0%;
+		margin-bottom: -24.9%;
+		height: 1079px;
+		max-height: 100%;
+
+	}
+	.services-content-bg{
+		margin-top: -1px;
+		height: 600px;
+		background-color: rgba(0,0,0, 1);
+		margin-bottom: -33%;
+	}
+	.service{
+		margin-top: 10%;
+    	margin-left: 2%;
+    	margin-right: -2.5%;
+	}
+	.service h3{
+		font-size: 2em;
+	}
+	.service p{
+		font-size: 1.5em;
+	}
+	.services-last{
+		margin-top: -0%;
+	}
+ 	.services-legend{
+ 		margin-top: 4%;
+ 	}
+ 	.services-footer{
+ 		margin-top: -0.9%;
+ 		background-color: rgba(0, 0, 0, 0.0);
+
+ 	}
+
+/*----------------------- /Services section styles ---------------------------*/
+
+/*----------------------- Brands section styles ---------------------------*/
+.tall-row{
+	height:1079px;
+}
+.kreis-brands{
+		height: 1080px;
+		width: 1920px;
+		color: white;
+}
+.brands-logo-sm{
+	height: 235px;
+	background-size: 65%;
+}
+.brands-blur{
+	width: 100%;
+	height: 547px;
+    margin-top: 0.3%;
+} 
+.brands-lines{
+	background-size: 100%;
+	height: 547px;
+	width: 100%;
+	margin-top: -28.5%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.brands-catalog{
+	height: 815px;
+	width: 100%;
+	max-height: 100%;
+	padding:-2%;
+	margin-top: -28.5%;
+}
+.brands-title{	
+	margin-top: -44%;
+}
+.brands-title h1{
+	font-size:7.5em;
+}
+.brands-catalog-main{
+	margin-left: 1.7%;	
+	height: 200px;
+}
+.brands-catalog-main-2 {
+    margin-left: 3%;
+    height: 200px;
+    padding-top: 5%;
+}
+.brands-catalog-footer{
+	margin-top: 5%;
+	margin-left: -2%;	
+	height: 538px;
+}
+.brands-catalog-sidebar{
+	height: 100px;
+	margin-left: 76.7%; 
+}
+.catalog-display{
+	height: 538px;	
+	margin-top: -38.7%;
+}
+.brands-logo{	
+	height: 450px;
+	width: 450px;
+	margin-bottom: -6%;
+	margin-top: -22.2%;
+	margin-left: 76.7%; 
+}
+.invisible{
+	visibility:hidden;
+}
+.brands-catalog-btn-bg{
+	text-align: center;
+	margin-top: -4.5%;
+	padding-top: 10.65%;
+	margin-left: -3.6%;
+	margin-right: 3.6%;
+	height: 100%;
+	border: 1px solid rgba(0,255,255, 0.0);
+	background-color: rgba(0,255,255, 0.0);
+}
+.brand-tile{
+	opacity:0.5;
+}
+.brand-tile:hover{
+	opacity:1;
+}
+.brand-display-name{
+	
+}
+.brand-detail-logo{
+	margin-top: -6.5%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	height: 535px;
+}
+.spacer {
+    margin-top: 1%; 
+}
+#details-close-btn{
+	font-size: 2em;
+	background-color: rgba(0, 0, 0, 0.1);
+	color: white;
+	border-color:  rgba(255, 255, 255, 0.1);
+}
+#details-close-btn:hover, #details-close-btn:focus {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #D91C5C;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+	.hidden-brand{
+	}
+	.brand-icon{
+	}
+	.brands-footer{
+		font-size: 1.5em;
+		margin-top: 0%;
+		margin-bottom: -2%;
+	}
+	#details-description p{
+		font-size: 1.5em;
+		color: #ccc;
+	}	
+	.details-right{
+		color:#ccc;
+		font-size: 1.4em;
+		padding-top: 4%;
+
+	}
+	.brands-map{
+		height: 220px;
+	}
+	.side-menu{
+		margin-top: 7%;
+	}
+	.footer-menu{
+	    margin-top: 21.5%;
+	    height: 200px;
+	    vertical-align: middle;
+	    padding-top: 0.5%;
+	}
+	.brands-details-close-container{
+		margin-bottom: 15%;
+		z-index:9999;
+	}
+.brand-label{
+	color: #FFF;
+	font-family: 'HelveticaNueLTCom';
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-top: -35%;
+    text-align: center;
+    font-weight: bold;
+}
+#details-gallery-pane{
+	margin-left: -5%;
+}
+/*----------------------- /Brands section styles ---------------------------*/
+
+/*----------------------- Gallery section styles ---------------------------*/
+	.kreis-gallery{
+		height: 1080px;
+		width: 1920px;
+		color: white;
+	}
+	.gallery-prev{
+		margin-left: 2%;
+		margin-top: 9%;
+	}
+	.gallery-next{
+		margin-left: 94%;
+		margin-top: -24%;
+	}
+	.gallery-nav{
+
+	}
+	.gallery-nav:hover, .gallery-nav:focus{}
+	.gallery-album-triger{
+		height: 100%;
+		background-size: 50%;
+	}
+	.kreis-gallery-logo{
+		margin-top: 5%;
+		margin-bottom: -1%;
+		height: 30%;
+		background-size: 70%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+		.gallery-album{
+			margin-top: -17%;
+			width: 1920px;
+			height: 324px;
+
+		}
+		.gallery-spacer-top{
+			height: 25%;
+		}
+		.social-icons-bar{
+			margin-top: 15.5%;
+			margin-bottom: -3%;
+			height:108px;
+			margin-left: 5%
+		}
+		.social-icon{
+			padding-top: 7%;
+			font-size: 1.5em;
+			background-size: 80%;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 100%;
+		}
+		.social-icon:hover, .social-icon:focus{
+			opacity: 1.0;
+		}
+		.social-fb{
+		}
+		.social-yt{
+		}
+		.social-tw{
+		}
+		.social-ins{
+		}
+		.social-lin{
+		}
+		.social-ggl{
+		}
+		.social-pin{
+		}
+		.gallery-blur{
+			margin-top: 3%;
+			height: 276px;
+		}
+		.gallery-lines{
+		margin-top: -14.5%;	
+			height: 276px;
+		}
+		.gallery-btn-kitchen{
+			height: 70%;
+			width: 100%;
+		}
+		.gallery-btn-architects{
+			height: 70%;
+			width: 100%;
+		}
+		.gallery-btn-art{
+			height: 70%;
+			width: 100%;
+		}
+		.gallery-album-btn{
+			height: 100%;
+		}
+		.hidden-album{}
+		.hidden-block{}
+		.modal-content{
+			width: 855px;
+			height: 542px;
+			margin-top:30%;
+			margin-bottom:0%;
+			margin-left:-26%;
+		}
+		.modal-content h4{
+			font-size: 3em;
+		}
+		.modal-content p{
+			font-size: 1.5em;
+		}
+		.details-blur{
+			margin-bottom: -54%;
+			}
+	.gallery-footer{
+		font-size: 1.5em;
+		margin-top: -1.0%;
+	}
+	#fullview-mob{
+		z-index: -1;
+		opacity: 0.0;
+		font-size: 0em;
+		padding-top: 0px;
+		padding-left: 0px;
+		visibility: hidden;
+	}
+	.gallery-album-triger-mob{
+		height: 0px !important;
+		z-index: -1;
+		opacity: 0.0;
+		font-size: 0em;
+		padding-top: 0px;
+		padding-left: 0px;
+		visibility: hidden;
+	}
+	.gallery-spacer-bottom{
+		height: 17%
+	}
+	.gallery-menu-h2{
+		margin-top: 10px !important;
+		margin-bottom: 30px !important;
+		font-size: 2.5em;
+	}
+
+/*----------------------- / Gallery section styles ---------------------------*/
+
+/*-----------------------  Contact section styles ---------------------------*/
+		.kreis-contact{
+			margin:0px;
+			padding: 0px;
+			height: 1080px;
+			width: 1920px;
+		}
+		.contact-container{
+			overflow-x:hidden; 
+			height: 1079px;
+		}
+		.contact-left-top h1{
+			margin-top: 15%;
+			font-size: 7em;
+		}
+		.contact-blur{
+			height: 579px;
+		}
+		.contact-form{
+			height: 579px;
+			width: 100%;
+			margin-top: -53%;
+			padding-top: 1%;
+		}
+		.contact-map{
+		}
+		.contact-footer{
+			margin-top: -1%;
+			margin-bottom: -0.5%;
+		}
+		.contact-left-top{
+			height: 250px;
+		}
+		.contact-left-bottom{
+			height: 250px;
+		}
+		.contact-map{
+			height: 80%;
+			margin-top:1%;
+		}
+		.contact-logo-sm{
+			height: 260px;
+		}
+		.contact-info{
+			font-size: 1.3em;
+		}
+		.contact-info-spacer{
+			height:  110px;
+		}
+		.contact-info-data{
+			height:  100px;
+		}
+		.contact-info-web{
+			height:  20px;
+		}
+		.contact-form-container{
+			height: 100%
+		}
+		.contact-data-block{
+			margin-top: -36%;
+		}
+		.contact-send-btn{
+			height: 60px;
+			margin-top: 2%;
+			font-size: 2em;
+		}
+		 .contact-label{
+		 	font-family: 'HelveticaNueLTCom';
+		 	font-size: 2em;
+		 }		 
+		.contact-right-top{
+			font-size: 2em;
+			height: 450px;
+			width: 100%;
+		}
+		.contact-quote{
+			margin-top: 27%;
+			margin-left: -8%;		
+			font-size: 1.3em;
+		}
+		.contact-quote p{
+			color:#D3D3D3;
+		}
+		.contact-quote p small{
+			float: right;
+			text-align: right;
+			color: #FFFFFF;
+		}
+		.contact-right-middle{
+			height: 500px;
+		}
+		.contact-right-bottom{
+			height: 120px;
+			width: 100%;
+		}
+		#contact_msg{
+			height: 259px !important;
+			margin-bottom: 12%;
+		}
+/*----------------------- / Contact section styles --------------------------*/
+/*----------------------- Brands section styles ---------------------------*/
+.tall-row{
+	height:1079px;
+}
+.kreis-clients{
+		height: 1080px;
+		width: 1920px;
+		color: white;
+}
+.clients-logo-sm{
+	height: 200px;
+	background-size: 62%;
+}
+.clients-blur{
+	width: 100%;
+	height: 853px;
+    margin-top: 0.3%;
+} 
+.clients-lines{
+	background-size: 100%;
+	height: 853px;
+	width: 100%;
+	margin-top: -44.5%;
+	background-color: rgba(85, 85, 85, 0.34);
+}
+.clients-catalog{
+	height: 853px;
+	width: 100%;
+	max-height: 100%;
+	padding:-2%;
+	margin-top: -44.5%;
+}
+.clients-title{	
+	margin-top: -51%;
+}
+.clients-title h1{
+	font-size:7.5em;
+}
+.clients-footer{
+	font-size: 1.5em;
+	margin-top: -0%;
+	margin-bottom: -2%;
+}
+.client{
+	max-height: 20% !important;
+	max-width: 25% !important;
+	height: 20%;
+	width: 20%;
+	border: solid 0px white;
+	text-align: middle center;
+}
+.client-sm{
+	height: 50px !important;
+	width: 50px !important;
+}
+.client-city-capital{
+	background-image: url('../../assets/imgs/logos-clientes/citycapital.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-camara-comercio{
+	background-image: url('../../assets/imgs/logos-clientes/camara-comercio.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-hospital-angeles{
+	background-image: url('../../assets/imgs/logos-clientes/hospital-angeles.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-legorreta{
+	background-image: url('../../assets/imgs/logos-clientes/legorreta.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-gsm{
+	background-image: url('../../assets/imgs/logos-clientes/grupo-sordomaleno.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-informador{
+	background-image: url('../../assets/imgs/logos-clientes/informador.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-omnilife{
+	background-image: url('../../assets/imgs/logos-clientes/omnilife.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-camino-real{
+	background-image: url('../../assets/imgs/logos-clientes/camino.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-udg{
+	background-image: url('../../assets/imgs/logos-clientes/udg.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-riu{
+	background-image: url('../../assets/imgs/logos-clientes/riu.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-pta-hierro{
+	background-image: url('../../assets/imgs/logos-clientes/puerta-de-hierro-residencial.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-sport-city{
+	background-image: url('../../assets/imgs/logos-clientes/sport_city.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-pueblo{
+	background-image: url('../../assets/imgs/logos-clientes/pueblo-bonito.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-rosewood{
+	background-image: url('../../assets/imgs/logos-clientes/roosewood-san-miguel.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-hacienda{
+	background-image: url('../../assets/imgs/logos-clientes/hacienda.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-aeromexico{
+	background-image: url('../../assets/imgs/logos-clientes/aeromexico.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-maz{
+	background-image: url('../../assets/imgs/logos-clientes/maz.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-aplijsa{
+	background-image: url('../../assets/imgs/logos-clientes/aplijsa.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-country-club{
+	background-image: url('../../assets/imgs/logos-clientes/country_club.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-legionari{
+	background-image: url('../../assets/imgs/logos-clientes/legionari.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-alpes{
+	background-image: url('../../assets/imgs/logos-clientes/alpes.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-alpes-2{
+	background-image: url('../../assets/imgs/logos-clientes/alpes-2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-cumbres{
+	background-image: url('../../assets/imgs/logos-clientes/cumbres.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-cdmx{
+	background-image: url('../../assets/imgs/logos-clientes/cdmx.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-mayan{
+	background-image: url('../../assets/imgs/logos-clientes/mayan_palace.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*----------------------- Clients section styles ---------------------------*/
