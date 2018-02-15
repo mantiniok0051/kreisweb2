@@ -1,0 +1,1398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"on",
+				"onLangChange	property"
+			],
+			[
+				"get",
+				"getTranslation	method"
+			],
+			[
+				"br",
+				"BrandsCatalog	alias"
+			],
+			[
+				"brans",
+				"brands-catalog	directory"
+			],
+			[
+				"Na",
+				"NavigationEnd	alias"
+			],
+			[
+				"na",
+				"NavigationEnd	alias"
+			],
+			[
+				"cu",
+				"currentItem	property"
+			],
+			[
+				"bui",
+				"buildImagePath	method"
+			],
+			[
+				"curr",
+				"currentItem	property"
+			],
+			[
+				"se",
+				"selectedBrand	property"
+			],
+			[
+				"lo",
+				"logo	property"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"MAR",
+				"margin"
+			],
+			[
+				"des",
+				"description	property"
+			],
+			[
+				"b",
+				"brandList	property"
+			],
+			[
+				"con",
+				"console	var"
+			],
+			[
+				"midd",
+				"middle"
+			],
+			[
+				"inline",
+				"inline-table"
+			],
+			[
+				"CLI",
+				"Clients"
+			],
+			[
+				"Client",
+				"ClientsComponent	alias"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"M",
+				"MÃ©xico"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"ng-",
+				"ng2-import	Angular 2 Import Snippet"
+			],
+			[
+				"us",
+				"use	method"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"trans",
+				"getTranslation	method"
+			],
+			[
+				"Translate",
+				"TranslateLoader	class"
+			],
+			[
+				"Transl",
+				"TranslateService	alias"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"bcak",
+				"background-size"
+			],
+			[
+				"rem",
+				"removeChild	method"
+			],
+			[
+				"HT",
+				"HTMLMapElement	interface"
+			],
+			[
+				"a",
+				"setAttributeNodeNS	method"
+			],
+			[
+				"Ht",
+				"HTMLElement	interface"
+			],
+			[
+				"doc",
+				"Document	interface"
+			],
+			[
+				"Map",
+				"MapTypeStyle	alias"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"sli",
+				"slideToRight	function"
+			],
+			[
+				"Host",
+				"HostBinding	alias"
+			],
+			[
+				"imp",
+				"implements	keyword"
+			],
+			[
+				"u",
+				"url	property"
+			],
+			[
+				"ng2-im",
+				"ng2-import	Angular 2 Import Snippet"
+			],
+			[
+				"S",
+				"snapshot	property"
+			],
+			[
+				"ac",
+				"actual_route	property"
+			],
+			[
+				"ng2-",
+				"ng2-import	Angular 2 Import Snippet"
+			],
+			[
+				"Rou",
+				"Router	alias"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"URL",
+				"URLSearchParams	interface"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"ngOn",
+				"ngOnInit	method"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"set",
+				"setInterval	function"
+			],
+			[
+				"ngO",
+				"ngOnInit	method"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"pri",
+				"private	keyword"
+			],
+			[
+				"contac",
+				"contac.service.component	script"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"bck",
+				"background-size"
+			],
+			[
+				"BAC",
+				"background-position"
+			],
+			[
+				"BACK",
+				"background-size"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"F",
+				"fullImageViewOpen	property"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"hid",
+				"hidden-md 	Bootstrap 3 Class"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"hidd",
+				"hidden-md 	Bootstrap 3 Class"
+			],
+			[
+				"title",
+				"title	Attr"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"backg",
+				"backgrounds"
+			],
+			[
+				"hi",
+				"hidden-sm 	Bootstrap 3 Class"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"hidden",
+				"hidden-sm 	Bootstrap 3 Class"
+			],
+			[
+				"hidden-",
+				"hidden-md 	Bootstrap 3 Class"
+			],
+			[
+				"kre",
+				"kreis_web	property"
+			],
+			[
+				"kreis",
+				"kreis_phone	property"
+			],
+			[
+				"ngM",
+				"ngModel	Angular 2 ngModel Snippet"
+			],
+			[
+				"form-",
+				"form-horizontal 	Bootstrap 3 Class"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"BOR",
+				"border-radius"
+			],
+			[
+				"Pre",
+				"PrefixArts	property"
+			],
+			[
+				"Pr",
+				"PrefixKitchen	property"
+			],
+			[
+				"curre",
+				"currentAlbum	property"
+			],
+			[
+				"al",
+				"album_max	property"
+			],
+			[
+				"pre",
+				"PrefixKitchen	property"
+			],
+			[
+				"K",
+				"kitchensAlbum	property"
+			],
+			[
+				"albu",
+				"albumName	property"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"fa",
+				"false	keyword"
+			],
+			[
+				"ga",
+				"gallerySection	property"
+			],
+			[
+				"ti",
+				"title	Attr"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"import",
+				"import	imports a module …"
+			],
+			[
+				"footer",
+				"panel-footer 	Bootstrap 3 Class"
+			],
+			[
+				"ali",
+				"align-bottom 	Bootstrap 4 Class"
+			],
+			[
+				"repeat",
+				"repeat-x"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"bg-",
+				"bg-faded 	Bootstrap 4 Class"
+			],
+			[
+				"pdd",
+				"padding-right"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"navbo",
+				"navbar-fixed-top 	Bootstrap 3 Class"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"fix",
+				"clearfix 	Bootstrap 3 Class"
+			],
+			[
+				"f",
+				"fixed-top 	Bootstrap 4 Class"
+			],
+			[
+				"col-xs-p",
+				"col-xs-pull-12 	Bootstrap 3 Class"
+			],
+			[
+				"conta",
+				"container-fluid 	Bootstrap 4 Class"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"cap",
+				"capitalize"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/wpsandbox/personalize-login-tutorial-part-3-master/personalize-login/personalize-login.php",
+			"settings":
+			{
+				"buffer_size": 26323,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wpsandbox/integration/old_nx/wp-includes/certificates/ca-bundle.crt",
+			"settings":
+			{
+				"buffer_size": 279559,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wpsandbox/integration/old_nx/wp-login.php",
+			"settings":
+			{
+				"buffer_size": 34327,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wpsandbox/pochtli_nix_270118/wp-content/plugins/woocommerce-wholesale-order-form/css/WholesalePage.css",
+			"settings":
+			{
+				"buffer_size": 10437,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"tnp tnp-subscription\">\n<form method=\"post\" action=\"http://pochtlicoatl.com/nix/?na=s\" onsubmit=\"return newsletter_check(this)\">\n\n<div class=\"tnp-field tnp-field-firstname\"><label>Nombre</label><input class=\"tnp-firstname\" type=\"text\" name=\"nn\" required></div>\n<div class=\"tnp-field tnp-field-lastname\"><label>Apellido</label><input class=\"tnp-lastname\" type=\"text\" name=\"ns\" required></div>\n<div class=\"tnp-field tnp-field-email\"><label>Email</label><input class=\"tnp-email\" type=\"email\" name=\"ne\" required></div>\n<div class=\"tnp-field tnp-field-profile\"><label>Número VIG</label><input class=\"tnp-profile tnp-profile-1\" type=\"text\" name=\"np1\"></div><div class=\"tnp-field tnp-field-profile\"><label>Fecha de Nacimiento</label><input class=\"tnp-profile tnp-profile-2\" type=\"text\" required name=\"np2\"></div><div class=\"tnp-field tnp-field-button\"><input class=\"tnp-submit\" type=\"submit\" value=\"Registrar\">\n</div>\n</form>\n</div>\n\n<script type=\"text/javascript\">\n//<![CDATA[\nif (typeof newsletter_check !== \"function\") {\nwindow.newsletter_check = function (f) {\n    var re = /^([a-zA-Z0-9_\\.\\-\\+])+\\@(([a-zA-Z0-9\\-]{1,})+\\.)+([a-zA-Z0-9]{2,})+$/;\n    if (!re.test(f.elements[\"ne\"].value)) {\n        alert(\"The email is not correct\");\n        return false;\n    }\n    if (f.elements[\"nn\"] && (f.elements[\"nn\"].value == \"\" || f.elements[\"nn\"].value == f.elements[\"nn\"].defaultValue)) {\n        alert(\"The name is not correct\");\n        return false;\n    }\n    if (f.elements[\"ns\"] && (f.elements[\"ns\"].value == \"\" || f.elements[\"ns\"].value == f.elements[\"ns\"].defaultValue)) {\n        alert(\"The last name is not correct\");\n        return false;\n    }\n    for (var i=1; i<20; i++) {\n    if (f.elements[\"np\" + i] && f.elements[\"np\" + i].required && f.elements[\"np\" + i].value == \"\") {\n        alert(\"\");\n        return false;\n    }\n    }\n    if (f.elements[\"ny\"] && !f.elements[\"ny\"].checked) {\n        alert(\"You must accept the privacy statement\");\n        return false;\n    }\n    return true;\n}\n}\n//]]>\n</script>\n\n<div class=\"tnp tnp-subscription\">\n<form method=\"post\" action=\"http://pochtlicoatl.com/nix/?na=s\" onsubmit=\"return newsletter_check(this)\">\n\n<table cellspacing=\"0\" cellpadding=\"3\" border=\"0\">\n\n<!-- first name -->\n<tr>\n	<th>Nombre</th>\n	<td><input class=\"tnp-firstname\" type=\"text\" name=\"nn\" size=\"30\"required></td>\n</tr>\n\n<!-- last name -->\n<tr>\n	<th>Apellido</th>\n	<td><input class=\"tnp-lastname\" type=\"text\" name=\"ns\" size=\"30\"required></td>\n</tr>\n\n<!-- email -->\n<tr>\n	<th>Email</th>\n	<td align=\"left\"><input class=\"tnp-email\" type=\"email\" name=\"ne\" size=\"30\" required></td>\n</tr>\n\n<tr>\n	<th>Número VIG</th>\n	<td>\n		<input class=\"tnp-profile tnp-profile-1\" type=\"text\" size=\"30\" name=\"np1\" placeholder=\"Número VIG\"/>\n	</td>\n</tr>\n\n<tr>\n	<th>Fecha de Nacimiento</th>\n	<td>\n		<input class=\"tnp-profile tnp-profile-2\" type=\"text\" size=\"30\" name=\"np2\" placeholder=\"DD/MM/AAAA\" required/>\n	</td>\n</tr>\n\n<tr>\n	<td colspan=\"2\" class=\"tnp-td-submit\">\n		<input class=\"tnp-submit\" type=\"submit\" value=\"Registrar\"/>\n	</td>\n</tr>\n\n</table>\n</form>\n</div>\n\n\n\n\n\n\n<div class=\"tnp tnp-subscription\"><form action=\"http://pochtlicoatl.com/nix/?na=s\" method=\"post\">\n<div class=\"tnp-field tnp-field-firstname\"><label>Nombre</label><input class=\"tnp-firstname\" name=\"nn\" required=\"\" type=\"text\" /></div>\n<div class=\"tnp-field tnp-field-lastname\"><label>Apellido</label><input class=\"tnp-lastname\" name=\"ns\" required=\"\" type=\"text\" /></div>\n<div class=\"tnp-field tnp-field-email\"><label>Email</label><input class=\"tnp-email\" name=\"ne\" required=\"\" type=\"email\" /></div>\n<div class=\"tnp-field tnp-field-profile\"><label>Número VIG</label><input class=\"tnp-profile tnp-profile-1\" name=\"np1\" type=\"text\" /></div>\n<div class=\"tnp-field tnp-field-profile\"><label>Fecha de Nacimiento</label><input class=\"tnp-profile tnp-profile-2\" name=\"np2\" required=\"\" type=\"text\" /></div>\n<div class=\"tnp-field tnp-field-button\"><input class=\"tnp-submit\" type=\"submit\" value=\"Registrar\" /></div>\n</form></div>\n\n\n\nOnixrule1",
+			"settings":
+			{
+				"buffer_size": 4002,
+				"line_ending": "Windows",
+				"name": "<div class=\"tnp tnp-subscription\">"
+			}
+		},
+		{
+			"file": "/C/Users/MARIANO/Google Drive/UDG/9noSemestre/Implementación de telecomunicaciones y redes/U1/AA7/mkinline-master/cliente-redes-2017B.ovpn",
+			"settings":
+			{
+				"buffer_size": 3499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/MARIANO/Google Drive/UDG/9noSemestre/Implementación de telecomunicaciones y redes/U1/AA7/mkinline-master/cliente-redes-2018A.key",
+			"settings":
+			{
+				"buffer_size": 912,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/OpenVPN/config/cliente-redes-2018A.ovpn",
+			"settings":
+			{
+				"buffer_size": 3499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 445497,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wpsandbox/personalize-login-tutorial-part-3-master/personalize-login/templates/login_form.php",
+			"settings":
+			{
+				"buffer_size": 2358,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 448.0
+	},
+	"console":
+	{
+		"height": 60.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files/OpenVPN/config/cliente-redes-2017B.ovpn",
+		"/C/xampp/htdocs/wpsandbox/personalize-login/personalize-login.php",
+		"/C/xampp/htdocs/nix/nx-installer.php",
+		"/C/xampp/htdocs/nix/installer/nx_database.sql",
+		"/C/xampp/htdocs/nix/installer/database.sql",
+		"/C/xampp/htdocs/wpsandbox/nix2018/big_querys.sql",
+		"/C/xampp/htdocs/wpsandbox/pochtli_nix_270118/wp-config.php",
+		"/C/xampp/htdocs/nix/web.config",
+		"/C/xampp/htdocs/nix/.htaccess",
+		"/C/xampp/htdocs/nix/wp-config.php",
+		"/C/xampp/htdocs/wpsandbox/nix2018/u789370253_avaxu_table_zwoj_posts_edited.sql",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/xampp/htdocs/nix/new/installer-backup.php",
+		"/C/xampp/htdocs/nix/new/database.sql",
+		"/C/xampp/htdocs/wpsandbox/nix2018/u789370253_avaxu_database.sql",
+		"/C/Users/MARIANO/Downloads/698798_onix (4).sql",
+		"/C/Users/MARIANO/Downloads/698798_onix (1).sql",
+		"/C/xampp/htdocs/wpsandbox/BD_tienda_original/gd_bundle-g2-g1.crt",
+		"/C/xampp/htdocs/wpsandbox/BD_tienda_original/e6ec7dcdb98c277.crt",
+		"/C/xampp/htdocs/wpsandbox/integration/old_nx/shop/wp-content/themes/vg-sagitta/woocommerce/cart/cross-sells.php",
+		"/C/xampp/htdocs/wpsandbox/integration/old_nx/shop/wp-content/themes/vg-sagitta/woocommerce/cart/mini-cart.php",
+		"/C/xampp/htdocs/wpsandbox/integration/old_nx/shop/wp-content/themes/vg-sagitta/woocommerce/cart/cart.php",
+		"/C/xampp/htdocs/wpsandbox/BD_tienda_original/A/727716_storenix.sql",
+		"/C/xampp/htdocs/wpsandbox/integration/old_nx/shop/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php",
+		"/C/xampp/htdocs/wpsandbox/integration/old_nx/shop/.htaccess",
+		"/C/xampp/htdocs/wpsandbox/integration/old_nx/.htaccess",
+		"/C/xampp/htdocs/wpsandbox/BD_tienda_original/727716_storenix (28012018).sql",
+		"/C/Users/MARIANO/Downloads/mariadb-119_wc1.sql",
+		"/C/xampp/htdocs/wpsandbox/integration/old_nx/shop/727716_storenix.sql/727716_storenix.sql",
+		"/C/Users/MARIANO/Downloads/u789370253_avaxu (2).sql",
+		"/C/Users/MARIANO/Desktop/a modificar en sagita nonix",
+		"/C/xampp/htdocs/wpsandbox/integration/old_nx/shop/___wp-config.php",
+		"/C/Users/MARIANO/Downloads/Storefront_Backup_2018_01_15.sql",
+		"/C/xampp/htdocs/wpsandbox/development.nix.com.mx/.htaccess",
+		"/C/xampp/htdocs/wpsandbox/integration/.htaccess",
+		"/C/xampp/htdocs/Kreys/Workspace/kiwa/src/index.html",
+		"/C/xampp/htdocs/Onix/web/nix/wp-config.php",
+		"/C/xampp/htdocs/Kreys/Workspace/kiwa/src/assets/css/media-queries.css",
+		"/C/xampp/htdocs/Kreys/Workspace/kiwa/src/app/brands-catalog/brands-catalog.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/kiwa/src/app/brands-catalog/brands-catalog.component.ts",
+		"/C/xampp/htdocs/wpsandbox/content_new/index.php",
+		"/C/xampp/htdocs/Kreys/Workspace/kiwa/src/app/brands/brands.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/kiwa/src/app/brands/brands.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/kiwa/src/assets/css/kreis-jb.css",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/index.html",
+		"/C/xampp/htdocs/Onix/kidscare/css/font-face/Amadeus/stylesheet.css",
+		"/C/xampp/htdocs/Onix/personajes.css",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/assets/i18n/en.json",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/brands/brands.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/brands-catalog/brands-catalog.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/assets/css/kreis-hd.css",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/navi/navi.component.css",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/kreisindustries-1.1beta/index.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/assets/i18n/es.json",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/brands-catalog/brands-catalog.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/assets/css/kreis-base-style.css",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/node_modules/bootstrap/package.json",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/app.module.ts",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWebV1.0/ProductionV1.0/index.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/brands/brands.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/models/brand.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/navi/navi.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/gallery/gallery.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/gallery/gallery.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/contact/contact.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/clients/clients.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/contact/contact.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/about/about.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/clients/clients.component.css",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/clients/clients.component.html",
+		"/C/Users/MARIANO/Downloads/_bz2.pyd",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/about/about.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/subsidiaries.component/subsidiaries.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/navi/navi.component.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/app.routing.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/subsidiaries.component/subsidiaries.component.css",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/subsidiaries.component/subsidiaries.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/subsidiaries.component/subsidiaries.component.component.ts",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/src/app/brands-catalog/brands-catalog.component.original.html",
+		"/C/xampp/htdocs/Kreys/Workspace/KreisIndustries-WebApp/package.json",
+		"/C/Users/MARIANO/Google Drive/UDG/8voSemenestre/ACSI Auditoría y consultoría en Sistemas de Información/U3/AA2/Auditoría de Sistemas de información.csv",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/styles.css",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/-styles.css",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustriesWeb/src/styles.css",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/app.component.css",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/about/about.component.ts",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/app.component.ts",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/about/about.component.html",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/models/menuitem.ts",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/welcome/welcome.component.html",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/welcome/welcome.component.ts",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/brands-catalog/brands-catalog.component.ts",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/app/app.module.ts",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/index.html",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/app/app.component.ts",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/styles.css",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/src/main.ts",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/main.ts",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustries-WebApp/package.json",
+		"/C/xampp/htdocs/Kreys/DevSpace/KreisIndustriesWeb/package.json",
+		"/C/xampp/htdocs/Kreys/VM/KreisIndustries/node_modules/@angular/common/http/public_api.d.ts",
+		"/C/xampp/htdocs/Kreys/VM/KreisIndustries/node_modules/@angular/common/http/http.d.ts",
+		"/C/xampp/htdocs/Kreys/VM/KreisIndustries/package.json",
+		"/C/xampp/htdocs/Kreys/VM/KreisIndustries/.angular-cli.json",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/package.json",
+		"/C/translate/core-3.2.1/package.json",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/app/welcome/welcome.component.ts",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/app/models/message.ts",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/app/nav-item.ts",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/app/app.module.ts",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/navi/navi.component.ts",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/navi/navi.component.css",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/navi/navi.component.html",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/navi/old_navi.component.html",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/navi/old_navi.component.ts",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/index.html",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/assets/css/kreis-base-style.css",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/assets/css/kreis-dsk-sm.css",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/assets/css/kreis-xsh.css",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/src/assets/css/kreis-md.css",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/brands-catalog/brands-catalog.component.html",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/brands-catalog/brands-catalog.component.ts",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/gallery/gallery.component.ts",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/app/gallery/gallery.component.html",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/assets/imgs/backgrounds/Mikkael-Kreis-Contact-.jpg",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/assets/css/kreis-ipad-pro-h.css",
+		"/C/xampp/htdocs/Kreys/KreisIndustriesWeb/dist/assets/css/kreis-ipad-pro-h.css",
+		"/C/xampp/htdocs/Kreys/KreysIndustries/src/assets/css/kreis-jb.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"pochtlicoatl.com",
+			"pochtlicoatl.com/nix",
+			"http://pochtlicoatl.com/nix",
+			"http://pochtlicoatl.com",
+			"http://pochtlicoatl.com/nix",
+			"http://pochtlicoatl.com/nix/",
+			"wp_post",
+			"(27538, 8177, '_wp_attached_file', '2014/11/aretes-marker.jpg'),",
+			"27359",
+			"http://nix.com.mx.dev/",
+			"https://www.shop.nix.com.mx",
+			"https://www.nix.com.mx/shop",
+			"143",
+			"5621",
+			".brand-detail-logo",
+			".brands-detail-logo",
+			".brands-logo",
+			"@media",
+			"getBrandLogo",
+			"_IMG",
+			"variable",
+			"brand",
+			" subsidiarie title",
+			"5em",
+			"fill",
+			"%;\n",
+			"');\n",
+			"brand",
+			"brand-label",
+			"tall",
+			"contact-map",
+			"contact-info-data",
+			"contact-info-mob",
+			"contact-map-mob",
+			"contact-logo-mob",
+			"contact-left-top",
+			"icon-resize-full-screen",
+			"triger",
+			"gallery-album",
+			"details-text",
+			"btn-sm",
+			"brands-logo",
+			"brands-lo",
+			"contact-left-bo",
+			"service",
+			"brands-logo",
+			"services-leg",
+			"service",
+			"services-title",
+			"about-lo",
+			"1366px",
+			"768px",
+			"catalog-d",
+			"details-close-c",
+			"contact-q",
+			"service",
+			"services",
+			"about-blu",
+			"about-",
+			"kreis",
+			"constr",
+			"about-k",
+			"services-bl",
+			"service",
+			"service ",
+			"services-title-ipadv",
+			"450px",
+			"1600px",
+			"900px",
+			"contact-form",
+			"details-catalog",
+			"brands-catalog display",
+			"about-logo-mob",
+			"400px",
+			"736px",
+			"414px",
+			"gallery-album",
+			"h1",
+			"service-h3",
+			"414px",
+			"736px",
+			"service",
+			"about-fo",
+			"contact-info-mob",
+			"contact-logo-mo",
+			"agm-",
+			"contact-left-",
+			"contact-form",
+			"#contact_msg",
+			"#contact-msg",
+			"#contact-send",
+			"#contact-send-",
+			"contact-for",
+			"submitted",
+			"gallery-album",
+			"brands-map",
+			"about-b",
+			"contact-map-mob",
+			"contact-map",
+			"reCap",
+			"capt",
+			"1366px",
+			"1024px",
+			"ipad",
+			"services-title-ipad",
+			"services-title-m",
+			"1024px",
+			"1366px",
+			"gallery-n",
+			"brands-btn",
+			"brand-det",
+			"about-",
+			"hidden-sm",
+			"contact-left-top",
+			"hidden-",
+			"hidden-md",
+			"contact-left-t",
+			"#fullview",
+			"gallery-alb",
+			"gallery-lin",
+			"gallery-album",
+			"%;\n",
+			"#fullview-mob",
+			"gallery-spacer",
+			"hidden-sm",
+			"about",
+			"details-cata",
+			"brand-icon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"nix.com.mx",
+			"http://www.nix.com.mx",
+			"http://www.nix.com.mx/",
+			"http://www.shop.nix.com.mx/",
+			"http://www.shop.nix.com.mx",
+			"https://www.shop.nix.com.mx",
+			"_PATH",
+			"client",
+			"",
+			"subsidiarie",
+			"1024px",
+			"640px",
+			"506px",
+			"1800px",
+			"1013px",
+			"333px",
+			"667px",
+			"375px",
+			"667px",
+			"736px",
+			"414px",
+			"736px",
+			"1366px",
+			"1024px",
+			"512px",
+			"1024px",
+			"384px",
+			"768px",
+			"1366px",
+			"400px",
+			"1440px",
+			"800px",
+			"483px",
+			"217px",
+			"196px",
+			"207px",
+			"456px",
+			"450px",
+			"900px",
+			"1600px",
+			"400px",
+			"1440px",
+			"800px",
+			"_",
+			"#D91C5C",
+			"\"",
+			"oldSelected",
+			"Akzidenz-Grotesk",
+			"img/photo/01.jpg",
+			"document"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/wpsandbox/personalize-login-tutorial-part-3-master/personalize-login/personalize-login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 3510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/wpsandbox/integration/old_nx/wp-includes/certificates/ca-bundle.crt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 279559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/wpsandbox/integration/old_nx/wp-login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/wpsandbox/pochtli_nix_270118/wp-content/plugins/woocommerce-wholesale-order-form/css/WholesalePage.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4002,
+								3993
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div class=\"tnp tnp-subscription\">",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1190.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/MARIANO/Google Drive/UDG/9noSemestre/Implementación de telecomunicaciones y redes/U1/AA7/mkinline-master/cliente-redes-2017B.ovpn",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3009,
+								3009
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/MARIANO/Google Drive/UDG/9noSemestre/Implementación de telecomunicaciones y redes/U1/AA7/mkinline-master/cliente-redes-2018A.key",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Program Files/OpenVPN/config/cliente-redes-2018A.ovpn",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1276,
+								1291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 429.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 445497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445497,
+								445497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 84266.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/xampp/htdocs/wpsandbox/personalize-login-tutorial-part-3-master/personalize-login/templates/login_form.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 30.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 30.0
+	},
+	"output.typescript_output":
+	{
+		"height": 124.0
+	},
+	"project": "KreisIndustries-WebApp.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
