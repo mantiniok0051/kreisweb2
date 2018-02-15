@@ -1,0 +1,172 @@
+<!--
+
+          hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+          hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+          hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+          hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+          hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+          hhhhhhyso+//////////////////////////////+osyhhhhhh
+          hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+          hhhhsso++////-.       .-//-.       .-////++++shhhh
+          hhhhsssssoo::////////`      `////////::++++++shhhh
+          hhhhssssssso+++osssss:      :ssssso++++++++++shhhh
+          hhhhsssssssso/``....++      ++....` :++++++++shhhh
+          hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+          hhhhssssssssssso      .::::.      +++++++++++shhhh
+          hhhhssssssssssss       `++`       +++++++++++shhhh
+          hhhhssssssssssss        ++        +++++++++++shhhh
+          hhhhssssssssssss.      `++`      .+++++++++++shhhh
+          hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+          hhhhssssssssssssssss+        /+++++++++++++++shhhh
+          hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+          hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+          hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+          hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+          hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+          hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+          hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+    
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: Base HTML code for Kreis Industries Website                      ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+<!doctype html>
+    <html lang="en-us">
+      <head>
+<!-- ======== ====== Compatible charset ============ -->
+    <meta charset="ISO-8859-1">
+<!-- ==============  Set the document scale to viewport with  -->  
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+<!-- ==============  Site description ============  -->
+    <meta name="description" content="Kreis Industries"> 
+<!-- ==============  Search engine Key words ============  -->
+    <meta name="keywords" content="Art, Design, Architecture, Business"> 
+<!-- ==============  Site Autor ============  -->
+    <meta name="author" content="Green Lyon 2017 ®">   
+
+
+<!-- ==============  FaceBook Meta ============  -->
+  <meta property="og:url"           content="http://www.kreisindustries.com/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Kreis Industries" />
+  <meta property="og:description"   content="Art, Design, Architecture," />
+  <meta property="og:image"         content="https://scontent.fgdl3-1.fna.fbcdn.net/v/t1.0-9/19396895_324747131270791_2831878418507050507_n.jpg?oh=4f593f56f0d640f92288e462baf48cf6&oe=5A0D90E9" />
+  <meta property="fb:app_id"         content="318915648548463" />
+        
+    
+        
+    
+<!-- ========  Site title  ==================  -->
+    <title>Kreis Industries</title>
+
+<!-- ========   Base for all URLs ==================  -->
+        <base href="/">
+  
+<!-- ================== Favicon Icons ================== -->            
+        <link  rel="icon" type="image/x-icon" href="favicon.ico">
+
+<!-- ========  Bootstrap 3.7.7 CSS from CDN ================== -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <!-- ========  Bootstrap 3.7.7 CSS local fallback ================== --> 
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+<!-- ========  Local IcoMoon CSS import ================== -->
+  <link rel="stylesheet" href="/assets/css/icomoon.css"> 
+
+<!--  ========= Site wide styles ========= -->
+  <link rel="stylesheet" href="/assets/css/kreis-base-style.css">
+
+<!-- CSS File selection based on viewport size -->
+
+  <!-- HD > 1920  -->
+    <link rel="stylesheet" media="screen and  (min-width: 1900px) and (min-height: 900px) and (orientation: landscape) " href="/assets/css/kreis-hd.css">
+   <!-- ND > 1800  -->
+    <link rel="stylesheet" media="screen and  (min-width: 1790px; ) and (min-height: 700px) and (max-height: 990px) and (orientation: landscape)" href="/assets/css/kreis-nnd.css">    
+  <!-- ND > 1600  -->
+    <link rel="stylesheet" media="screen and  (min-width: 1591px) and (max-width: 1700px) and (orientation: landscape) " href="/assets/css/kreis-nd.css">    
+  <!-- Jumbo > 1440  -->
+    <link rel="stylesheet" media="screen and  (min-width: 1400px) and (max-width: 1590px) and (orientation: landscape) " href="/assets/css/kreis-jb.css">
+  <!-- Xtra large > 1366 -->
+    <link rel="stylesheet" media="screen and  (min-width: 1300px) and (max-width: 1437px) and  (min-height: 600px) and (max-height: 900px)  and (orientation: landscape) " href="/assets/css/kreis-xl.css">
+  <!-- Ipad Pro horizontal 1366 -->
+    <link rel="stylesheet" media="screen and  (min-width: 1364px) and (max-width: 1370px) and (min-height: 1000px)  " href="/assets/css/kreis-ipad-pro-h.css">
+  <!-- Ipad Pro Vertical 1024 -->
+    <link rel="stylesheet" media="screen and  (min-width: 1022px) and (min-height: 1360px) and (orientation: portrait) " href="/assets/css/kreis-ipad-pro-v.css">
+  <!-- Large > 1200 -->
+    <link rel="stylesheet" media="screen and (min-width: 1160px) and (max-width: 1300px) and (min-height: 590px) and (orientation: landscape)" href="/assets/css/kreis-lg.css">
+  <!-- Medium > 1152 -->
+    <link rel="stylesheet" media="screen and (min-width: 1100px) and (max-width: 1190px) and (min-height: 590px) and (orientation: landscape) " href="/assets/css/kreis-dsk-md.css">
+  <!-- Medium > 1022 -->
+    <link rel="stylesheet" media="screen and (min-width: 1000px) and (max-width: 1145px) and (min-height: 500px)   and (max-height: 780px) and (orientation: landscape) " href="/assets/css/kreis-dsk-sm.css">
+  <!-- tablet 900px - 1019px-->
+    <link rel="stylesheet" media="only screen and (min-width: 850px) and (max-width: 1000px)" href="/assets/css/kreis-md.css">
+  <!-- Small =< 767 -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 600px)" href="/assets/css/kreis-sm.css">
+  <!--Extra small =< 480 Vertical -->
+    <link rel="stylesheet" media="only screen and (min-width: 400px) and (max-width: 480px)" href="/assets/css/kreis-xs.css">
+  <!--Extra small horizontal -->
+    <link rel="stylesheet" media="only screen and (min-width: 700px) and (max-width: 950px) and (min-height: 300px) and (orientation: landscape) " href="/assets/css/kreis-xsh.css">
+    <!--IPAD vertical 768 * 1024 -->
+    <link rel="stylesheet" media="only screen and (min-width: 700px) and (max-width: 1000px) and (min-height: 1000px) " href="/assets/css/kreis-ipad-v.css">
+  <!--Nano =< 375 vertical -->
+    <link rel="stylesheet" media="only screen and  (max-width: 390px) and (min-height: 300px)  and (max-height: 690px) and (orientation: portrait)" href="/assets/css/kreis-xxs.css"> 
+  <!--Nano horizontal  -->
+    <link rel="stylesheet" media="only screen and  (min-width: 600px) and  (max-width: 750px) and (min-height: 200px) and (orientation: landscape) " href="/assets/css/kreis-xxsh.css">
+    <!--Nano horizontal 2 -->
+  <link rel="stylesheet" media="only screen and  (min-width: 600px) and  (max-width: 750px) and (min-height: 300px) and (orientation: portrait) " href="/assets/css/kreis-xxsh.css">
+        
+<!-- /CSS File selection based on viewport size -->   
+
+<!-- ============================ jQuery ============================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Local jQuery fallback -->
+        <script type="text/javascript" src="/assets/js/jquery-3.2.1.min.js"></script>
+
+<!-- ====================== Bootstrap JavaScript ====================== -->
+    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<!-- ================================== NiceScroll   ======================================= -->
+  <script async src="/assets/js/jquery.nicescroll.min.js"></script>
+  <script async src="/assets/js/jquery.nicescroll.js"></script>
+
+    
+    <script async type="text/javascript" src="//use.typekit.net/gla7wnd.js"></script>
+    <script async type="text/javascript">try{Typekit.load();}catch(e){}</script>    
+
+</head>
+
+	<body>
+
+<!-- ===================== Angular Application insertion element =====================  -->
+        <app-root>
+
+  <!-- =================== Loading.index.html  =================== -->      
+          <section class="kreis-loading" id="kreis-loading-page">
+           <div class="row-fluid kreis-loading-img"> </div>
+            <div  class="row-fluid kreis-loading-footer">
+              <div class="col-xs-12">
+                <p>&copy; MMXXVII Kreis Industries | A <a class="" href="http://www.greenlyon.com" target="_blank">Green Lyon</a> production</p>
+              </div>
+            </div>
+          </section>
+  <!-- =================== Loading.index.html  =================== -->            
+
+
+        </app-root>
+
+<!-- ===================== / Angular Application insertion element =====================  
+	<script type="text/javascript" src="inline.a853db956f36cf960545.bundle.js"></script>
+  <script type="text/javascript" src="polyfills.b882da8fa85eab19be70.bundle.js"></script>
+  <script type="text/javascript" src="vendor.46a7d19167143017a3cd.bundle.js"></script>
+  <script type="text/javascript" src="main.430e1e4ac6a21cd3cdea.bundle.js"></script>
+  <!--<script type="text/javascript" src="main.1fc9dfc482df7b299724.bundle.js"></script>
+  <link href="styles.67bbcec695493df0aeaf.bundle.css" rel="stylesheet"/>-->
+
+  </body>
+
+</html>

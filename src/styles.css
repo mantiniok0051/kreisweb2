@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+	font-family: 'HelveticaNueLTCom'; src: url('/assets/fonts/HelveticaNeueLTCom-Lt.ttf');
+}
+@font-face{
+	font-family: 'HelveticaNueTh'; src: url('/assets/fonts/HelveticaNeueLTCom-Th.ttf');
+}
+@font-face{
+	font-family: 'HelveticaNueMd'; src: url('/assets/fonts/HelveticaNeueLTCom-Md.ttf');
+}
+@font-face{
+	font-family: 'HelveticaNueBd'; src: url('/assets/fonts/HelveticaNeueLTCom-Bd.ttf');
+}
+
+
+@font-face{
+	font-family: 'SukhumvitSet'; src: url('/assets/fonts/SukhumvitSet-Thin.ttf');
+}
+
+@font-face{
+	font-family: 'SukhumvitSetLt'; src: url('/assets/fonts/SukhumvitSet.ttc');
+}
+@font-face{
+	font-family: 'SukhumvitSetTxt'; src: url('/assets/fonts/SukhumvitSet-Text.ttf');
+}
+
+
+@font-face{
+	font-family: 'Alvenir'; src: url('/assets/fonts/AvenirNextLTPro-It.otf');
+}
+html, body, .container-fluid{
+	height: 100%;
+	width: 100%;
+	padding: -1%;
+}
+.container-fluid .jumbotron{
+	border-radius: 0px;
+	margin-left: 0.5%;
+	margin-right: -4.5%;
+	margin-top: -3%;
+	margin-bottom: -3.5%
+
+}
+.container-fluid .jumbotron .section-header{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: 'SukhumvitSet';
+}
+.section-header{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: 'SukhumvitSet';
+}
+h1{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: 'SukhumvitSet';
+}
+.navi-container, .footer-container .section-content{
+	z-index: 9999;
+}
+.about-logo-container, .KreisIndustries-logo{
+	z-index: 8888;}
+.-main{
+	background-size: cover;
+	background-position:center center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+.app-navi{
+	z-index: 9999 !important;
+}
+/*----------------------- loading page styles ---------------------------*/
+
+	.kreis-loading{
+		background-color: #D91C5C;
+		display: table;
+		height: 100%;
+		width: 100%;
+		color: white;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizelegibility;
+		overflow: hidden;	
+
+	}
+	.kreis-loading-img{
+		background-image: url('/assets/imgs/iconos-logos/Preloader_128.gif');
+		background-repeat:no-repeat;
+		background-size: 100%;
+		width: 50%;
+		height: 100%;
+		margin-top: 4.5%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.kreis-loading-footer{
+		margin-top: -10%;
+		text-align: center;
+		font-family: 'SukhumvitSet';
+	}
+	.kreis-loading p a{
+		z-index: 9999;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	.kreis-loading p a:focus, .kreis-loading p a:hover{
+		color:green;
+	}
+	footer{
+		text-align: center;
+		color:#FFFFFF;
+	}
+	footer a{
+		text-decoration: none;
+		color:#FFFFFF;
+	}
+	footer a:hover, footer a:active, footer a{
+		color:#FFFFFF;
+	}
+	.details-blur{
+		height: 100%;
+		width: 100%;
+		}
+/*----------------------- loading page styles ---------------------------*/
