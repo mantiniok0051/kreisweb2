@@ -1,0 +1,219 @@
+//   ====================================================================================
+//   ||  Version: 1.0                                                                  ||
+//   ||  Creation date: June 2017                                                      ||
+//   ||  Autor: Created by Green Lyon                                                  || 
+//   ||  Owner: Kreis Industries                                                       || 
+//   ||  Description: Logic fo Gallery for Kreis Industries Website                    ||
+//   ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+//   ====================================================================================                
+
+
+// =================== gallery.component  ===================
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'gallery',
+  templateUrl: './gallery.component.html',
+  styleUrls: ['./gallery.component.css']
+})
+export class GalleryComponent implements OnInit {
+
+ //======= Data items for Gallery Items and Albums =======//
+    public currentItem:string;
+    public currentAlbum:string;
+           item_counter:number;
+           album_max:number;
+           kitchensAlbum:number = 14;
+           architectureAlbum:number = 23;
+           artsAlbum:number = 6;
+           menuVisible:boolean;
+
+ //======= Gallery UI items =======//
+    public fullImageView:string;
+    public gallerySection:string;
+    public prev_btn:string;
+    public next_btn:string;
+    public blur:string;
+    public lines:string;
+    public album_menu:string;
+    public album_menu_left:string;
+    public album_kitchens_btn_container:string;
+    public album_achitects_btn_container:string;
+    public album_arts_btn_container:string;
+    public album_menu_right:string;
+    public kitchens_btn:string;
+    public achitects_btn:string;
+    public arts_btn:string;
+ //======= Gallery Albums CSS Style shortlist =======//
+
+  /* ========= Kitchens Album ==========*/
+
+    public PrefixKitchen:string = ' kitchens-';
+
+  /* ========= / Kitchens Album ==========*/
+
+  /* ========= Architecture Album ==========*/
+
+    public PrefixArchitecture:string = ' architecture-';
+
+  /* ========= / Architecture Album ==========*/
+
+  /* ========= Arts Album ==========*/
+
+    public PrefixArts:string = ' arts-';
+
+  /* ========= / Arts Album ==========*/
+
+  /* ========= CSS styles shortlist UI ALBUMS MENU ==========*/
+    public fullImageViewOpen:string = 'modal-content '
+    public albumMenuVisible:string = ' col-xs-12 gallery-album fade';
+    public blurVisible:string = ' col-lg-12 gallery-blur';
+    public linesVisible:string = ' col-lg-12 gallery-lines';
+    public kitchens_btnVisible:string = ' col-xs-10 col-lg-12 gallery-btn-kitchen';
+    public achitects_btnVisible:string = ' col-xs-10 col-lg-12 gallery-btn-architects';
+    public arts_btnVisible:string = ' col-xs-10 col-lg-12 gallery-btn-art';
+    public hiddenAlbum:string = ' col-lg-3 hidden-album';
+    public hiddenItem:string = ' hidden-block';
+    public visibleAlbum:string = ' col-lg-3  gallery-album-btn';
+    public albumBlockHidden:string = ' col-lg-3';
+    public baseSectionStyle:string = ' kreis-gallery';
+    public albumList:string[] = new Array<string>('Kitchens', 'Architecture', 'Arts & Crafts');
+    public albumName:string[] = new Array<string>('', '', '');
+    public lorems:string[] = new Array<string>('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae mauris ante. Sed sit amet commodo mi. Praesent eu pharetra arcu. Etiam nec urna vitae leo dictum suscipit. Donec fringilla laoreet faucibus. Cras urna nibh, hendrerit et eros non, rutrum dignissim mauris. Integer scelerisque suscipit pharetra. Vivamus eros magna, ornare in placerat in, tincidunt nec turpis.',
+
+                                              'Morbi tempor elit est, quis ornare risus dapibus ac. Vivamus neque lorem, hendrerit non hendrerit sed, finibus quis felis. Mauris urna enim, commodo id ipsum in, blandit pellentesque sapien. Mauris vitae luctus velit. Integer nulla felis, maximus quis fringilla semper, vehicula in lacus. Phasellus gravida mauris vitae rhoncus gravida. Fusce sed elit sed enim euismod fringilla. In lacinia a lacus ac rhoncus. Curabitur lobortis quam in aliquam lobortis. Nulla blandit aliquam sagittis. Proin diam nisl, maximus laoreet porta vitae, vestibulum vel augue.');
+
+
+  /* ========= CSS styles shortlist UI Visible ALBUM MENU ==========*/
+
+  constructor() { 
+      this.ngOnInit();
+  }
+
+  ngOnInit() {
+    this.gallerySection = this.baseSectionStyle;
+    this.blur = this.blurVisible + this.hiddenItem;
+    this.lines = this.linesVisible + this.hiddenItem;
+    this.album_menu = this.albumMenuVisible;
+    this.album_kitchens_btn_container = this.albumBlockHidden;
+    this.album_achitects_btn_container = this.albumBlockHidden;
+    this.album_arts_btn_container = this.albumBlockHidden;
+    this.kitchens_btn = this.hiddenAlbum;
+    this.achitects_btn = this.hiddenAlbum;
+    this.arts_btn = this.hiddenAlbum;
+    this.item_counter = 0;
+    this.album_max = this.kitchensAlbum;
+    this.menuVisible = false;
+
+    this.currentAlbum = this.PrefixKitchen;
+    this.currentItem = this.currentAlbum;
+    this.currentItem = this.currentItem + this.item_counter;
+
+    this.gallerySection = this.gallerySection + this.currentItem;
+    console.log(this);
+    
+  }
+
+
+  toggleAlbumMenu(){
+        if (this.menuVisible == true) {       
+            this.blur = this.blurVisible + this.hiddenItem;
+            this.lines = this.linesVisible + this.hiddenItem;
+            this.album_kitchens_btn_container = this.albumBlockHidden;
+            this.album_achitects_btn_container = this.albumBlockHidden;
+            this.album_arts_btn_container = this.albumBlockHidden;
+            this.kitchens_btn = this.hiddenAlbum;
+            this.achitects_btn = this.hiddenAlbum;
+            this.arts_btn = this.hiddenAlbum;
+              for (var i = 0; i < this.albumName.length; ++i) {
+                this.albumName[i] = '';
+              }
+
+            this.menuVisible = false;
+    } else {     
+            this.blur = this.blurVisible + this.currentItem;
+            this.lines = this.linesVisible;
+            this.album_kitchens_btn_container = this.visibleAlbum;
+            this.album_achitects_btn_container = this.visibleAlbum;
+            this.album_arts_btn_container = this.visibleAlbum;
+            this.kitchens_btn = this.kitchens_btnVisible;
+            this.achitects_btn = this.achitects_btnVisible;
+            this.arts_btn = this.arts_btnVisible;
+              for (var i = 0; i < this.albumName.length; ++i) {
+                this.albumName[i] = this.albumList[i];
+              }
+
+            this.menuVisible = true;
+    }
+  }
+
+  nextItem(){
+    if (this.menuVisible == true){
+      this.toggleAlbumMenu();
+    }
+    console.log(this.currentItem);
+    if (this.item_counter != this.album_max) { 
+          this.item_counter++;
+          this.currentItem = this.currentAlbum + this.item_counter;
+          console.log(this.currentItem);
+    } else {
+          this.item_counter= 0;
+          this.currentItem = this.currentAlbum + this.item_counter;
+          console.log(this.currentItem);      
+    }          
+          this.updateVisibleItem();
+  }
+
+  prevItem(){
+    console.log(this.currentItem);
+    if (this.item_counter == 0) { 
+          this.item_counter= this.album_max;
+          this.currentItem = this.currentAlbum + this.item_counter;
+          console.log(this.currentItem); 
+    } else {
+          this.item_counter--;
+          this.currentItem = this.currentAlbum + this.item_counter;
+          console.log(this.currentItem);      
+    }         
+          this.updateVisibleItem();
+  }
+
+  updateVisibleItem(){    
+    this.gallerySection = this.baseSectionStyle + this.currentItem
+    if (this.menuVisible == true) {
+      this.updateBlurImg();
+      this.setFullview();
+    }
+  }
+
+  updateBlurImg(){
+    this.blur = this.blurVisible + this.currentItem;
+  }
+
+  changeAlbum(albumID:number){
+
+      this.item_counter = 0;
+      switch (albumID) {
+        case 0:
+          this.currentAlbum = this.PrefixKitchen;
+          this.album_max = this.kitchensAlbum;
+          break;
+        case 1:
+          this.currentAlbum = this.PrefixArchitecture; 
+          this.album_max = this.architectureAlbum;
+          break;
+        
+        default:
+          this.currentAlbum = this.PrefixArts;
+          this.album_max = this.artsAlbum;
+          break;
+      }
+      this.currentItem = this.currentAlbum + this.item_counter;
+      this.updateVisibleItem();
+      this.toggleAlbumMenu();
+  }
+  setFullview(){
+    this.fullImageView = this.fullImageViewOpen + this.currentItem;
+  }
+}

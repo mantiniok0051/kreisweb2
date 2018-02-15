@@ -1,0 +1,30 @@
+.navi{ 
+	float: right;
+	margin-right: 0.5%;
+	margin-top: 0.5%;
+	color: #FFFFFF;
+	text-align: right;
+    text-transform: uppercase;
+}
+a{
+	text-decoration: none;
+}
+nav a{
+	z-index: 9999;
+	font-family: 'HelveticaNueLTCom';
+	padding-top: 4px;
+	padding-right: 14px;
+	padding-left: 14px;
+	color: #FFFFFF;
+}
+nav a:active {
+	text-decoration: none;
+	color: #D91C5C;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #D91C5C;
+}
+ul li a.nav-item-active{
+	color:  #D91C5C !important;
+}

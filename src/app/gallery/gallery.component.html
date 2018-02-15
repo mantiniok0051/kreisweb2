@@ -1,0 +1,178 @@
+<!--
+
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+					hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+					hhhhhhyso+//////////////////////////////+osyhhhhhh
+					hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+					hhhhsso++////-.       .-//-.       .-////++++shhhh
+					hhhhsssssoo::////////`      `////////::++++++shhhh
+					hhhhssssssso==+osssss:      :ssssso+==+++++++shhhh
+					hhhhsssssssso/``....++      ++....` :++++++++shhhh
+					hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+					hhhhssssssssssso      .::::.      +++++++++++shhhh
+					hhhhssssssssssss       `++`       +++++++++++shhhh
+					hhhhssssssssssss        ==        +++++++++++shhhh
+					hhhhssssssssssss.      `==`      .+++++++++++shhhh
+					hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+					hhhhssssssssssssssss+        /+++++++++++++++shhhh
+					hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+					hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+					hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+					hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+		
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description:  HTML view for Kreis Industries Website  /Gallery                ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+
+
+<!-- =================== brands.component.html Template for BrandsComponent =================== -->
+	<section id="kreis-brands-section" data-type="background" data-speed="5" class="{{gallerySection}}"><!-- Start of section -->
+
+<!--  ========================================Page header======================================== -->
+			<div class="col-xs-0 col-md-5"></div>
+			<div class="col-xs-12 col-md-6">
+	<!-- ==============  NavigationComponent ============== -->
+				<app-navi>	</app-navi>		
+			</div>
+			<div class="col-xs-0 col-md-1"></div>
+<!-- ========================================/Page header======================================== -->
+
+<!-- ======================================== Page content======================================= -->
+		<article id="gallery-content">
+			<div class="row-fluid tall-row">
+				
+				<div class="clearfix visible-sm-block"></div>
+				<div class="hidden-sm col-lg-12 gallery-spacer-top"></div>
+
+		<!--  PREVIOUS ITEM  kreis-gallery-prev-btn -->
+				<div  title="PREVIOUS ITEM" class="col-xs-2 col-lg-1 icon icon-chevron-left gallery-prev gallery-nav" id="kreis-gallery-prev-btn" (click)="prevItem()" ></div>
+
+				<div class="col-xs-8 col-lg-10 clearfix " id="kreis-gallery-spacer-top"></div>
+
+		<!--  NEXT ITEM kreis-gallery-next-btn -->
+				<div title="NEXT ITEM" class="col-xs-2 col-lg-1 icon icon-chevron-right gallery-next gallery-nav" id="kreis-gallery-next-btn" (click)="nextItem()" ></div>
+
+		<!--  section blur 	-->	
+					<div class="{{blur}}" id="kreis-gallery-blur"></div> 
+
+		<!--  section lines  -->
+					<div class="{{lines}}" id="kreis-gallery-lines"></div> 
+
+		<!--  Gallery-album-menu  -->
+				<div class="col-xs-12 col-lg-12 gallery-album" id="kreis-gallery-album-menu">
+					<div title="" class="col-xs-12 col-lg-1" id="kreis-gallery-album-menu-left"></div>
+					<div title="Kreis Kitchens Album" class="{{album_kitchens_btn_container}}" id="kreis-gallery-album-kitchens-btn-container" (click)="changeAlbum(0) " > 
+						<h2 class="hidden-sm hidden-ipadv gallery-menu-h2">{{albumName[0]}}</h2> 
+						<div class="{{kitchens_btn}}">
+							<h2 class="hidden-md">{{albumName[0]}}</h2>
+						</div>
+					</div>
+					<div title="Kreis Architecture Album " class="{{album_achitects_btn_container}}" id="kreis-gallery-album-achitects-btn-container" (click)="changeAlbum(1) " >
+					 	<h2 class="hidden-sm hidden-ipadv gallery-menu-h2">{{albumName[1]}}</h2>  
+					 	<div class="{{achitects_btn}}">
+					 		<h2 class="hidden-md">{{albumName[1]}}</h2>
+					 	</div>
+					 </div>
+					<div title="Kreis Arts Album" class="{{album_arts_btn_container}}" id="kreis-gallery-album-arts-btn-container" (click)="changeAlbum(2) " >
+					 	<h2 class="hidden-sm hidden-ipadv gallery-menu-h2">{{albumName[2]}}</h2>  
+					 	<div class="{{arts_btn}}">
+					 		<h2 class="hidden-md">{{albumName[2]}}</h2>
+					 	</div>
+					</div>
+					<div title="" class=" col-lg-1" id="kreis-gallery-album-menu-right"></div>
+					<div title="Open / Close albums menu" class="hidden-sm hidden-ipadv col-md-1 col-lg-1 gallery-album-triger" (click)="toggleAlbumMenu()" ></div>
+				</div>
+
+		<!-- full screen button for mobile  -->
+				<div title="Full image view" class="col-xs-4 hidden-lg icon icon-resize-full-screen" id="fullview-mob" role="button" title="View full image" data-toggle="modal" data-target="#FullView"  (click)="setFullview()"></div>
+
+		<!-- /Gallery-album-menu  -->
+				<div class="col-xs-4 col-md-2 col-lg-2 kreis-gallery-logo" id="kreis-gallery-logo"></div>
+
+				
+
+				<div class="col-md-5 col-lg-5 hidden-sm hidden-ipadv gallery-spacer-bottom"></div>
+
+		<!-- Gallery Menu trigger for mobile  -->
+				<div  class="gallery-album-triger-mob col-xs-4 hidden-lg" id="menu-trigger-mob" (click)="toggleAlbumMenu()" ></div>
+
+		<!-- Gallery-social-bar  -->				
+				<div class="hidden-sm hidden-ipadv col-md-4 col-lg-4 social-icons-bar" id="social-icons-bar">
+					<div class="hidden-sm col-md-2 col-lg-2 socia-icon" id="social-icon-spacer"></div>
+					<a href="https://www.facebook.com/Kreis-Industries-322630954815742/" target="_blank" >
+						<div title="Visit us in FaceBook" class="hidden-sm col-md-1 col-lg-1 social-fb social-icon" id="social-icon-fb"></div>
+					</a>
+					<a href="https://m.youtube.com/channel/UC9IeWY5CnH4K6CImQsp0CWw" target="_blank" >
+						<div title="Visit us in Youtube" class="hidden-sm col-md-1 col-lg-1 social-yt social-icon" id="social-icon-yt"></div>
+					</a>
+					<a href="https://twitter.com/KreisIndustries" target="_blank" > 
+						<div title="Visit us in Twiter" class="hidden-sm col-md-1 ol-lg-1 social-tw social-icon" id="social-icon-tw"></div>
+					</a>
+					<a href="https://www.instagram.com/kreisindustries/" target="_blank" > 
+						<div title="Visit us in IstaGram" class="hidden-sm col-md-1 col-lg-1 social-ins social-icon" id="social-icon-ig"></div>
+					</a>
+					<a href="https://www.linkedin.com/in/kreis-industrias-68422677/" target="_blank" > 
+						<div title="Visit us in LinkedIn" class="hidden-sm col-md-1 col-lg-1 social-lin social-icon" id="social-icon-in"></div>
+					</a>
+					<a href="https://plus.google.com/112709683399005421211?hl=es" target="_blank" > 
+						<div title="Visit us in Google+" class="hidden-sm col-md-1 col-lg-1 social-ggl social-icon" id="social-icon-gp"></div>
+					</a>
+					<a href="https://es.pinterest.com/kreisindustries/?eq=kreisindustries&etslf=1508" target="_blank" >
+						<div title="Visit us in Pinterest" class="hidden-sm col-md-1 col-lg-1 social-pin social-icon" id="social-icon-pin"></div>
+					</a>
+					<div class="hidden-sm col-md-1 col-lg-1 social-icon" ></div>
+					<!--<div role="button" title="Show picture details " class="col-lg-2 social-icon" id="img-info-btn" data-toggle="modal" data-target="#ItemDetails">Info</div>  Trigger  modal element -->
+				</div>
+
+		<!-- /Gallery-social-bar  -->		
+
+<!--  ========================================Page footer ======================================== -->
+			<div class="col-xs-12 gallery-footer footer-container">
+				<footer-component >
+					<!-- FooterComponent is automatically loaded inside the <footer></footer HTML element  -->
+				</footer-component>
+			</div>
+<!-- ========================================/Page footer ======================================== 		-->
+
+   
+<!-- ======================================== Photo details modal element ======================================== -->
+
+<div id="FullView" class="modal  fade" role="dialog">
+	<div class="col-lg-12"></div>
+
+ 	<div class="modal-dialog">
+  
+    <div class="{{fullImageView}}">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body"></div>
+       <div class="modal-footer">
+        	<button type="button" class="btn close-details" data-dismiss="modal">Close</button>
+      </div> 
+    </div>
+
+  </div> 
+</div>
+
+<!-- ======================================== /Photo details modal element ======================================== -->
+
+
+			</div><!-- /row-fluid -->
+		</article> <!-- /gallery-content -->
+<!-- ========================================/Page content======================================== -->		
+
+	</section><!--End of Section     -->
+<!-- =================== brands.component.html Template for BrandsComponent =================== -->

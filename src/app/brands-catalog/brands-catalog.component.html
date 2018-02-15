@@ -1,0 +1,88 @@
+<!--
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+					hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+					hhhhhhyso+//////////////////////////////+osyhhhhhh
+					hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+					hhhhsso++////-.       .-//-.       .-////++++shhhh
+					hhhhsssssoo::////////`      `////////::++++++shhhh
+					hhhhssssssso+++osssss:      :ssssso++++++++++shhhh
+					hhhhsssssssso/``....++      ++....` :++++++++shhhh
+					hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+					hhhhssssssssssso      .::::.      +++++++++++shhhh
+					hhhhssssssssssss       `++`       +++++++++++shhhh
+					hhhhssssssssssss        ++        +++++++++++shhhh
+					hhhhssssssssssss.      `++`      .+++++++++++shhhh
+					hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+					hhhhssssssssssssssss+        /+++++++++++++++shhhh
+					hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+					hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+					hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+					hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+		
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: HTML viewfor Kreis Industries Website   /Brands/catalog          ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+<!-- =================== brands-catag.component.html  =================== -->
+<div id="DetailsPane" class="{{DetailsPane}}"> 
+	<div class="col-xs-12 col-md-9 " id="details-gallery-pane">
+
+		<!--  PREVIOUS ITEM  kreis-gallery-prev-btn -->
+				<div  title="PREVIOUS ITEM" class="col-xs-2 col-lg-1 icon icon-chevron-left gallery-prev gallery-nav" id="kreis-gallery-prev-btn" (click)="previusItem()" ></div>
+
+				<img src="{{currentItem}}" alt="{{selectedBrand.name}}" title="{{selectedBrand.name}}" class="img-responsive brand-detail-logo" id="brand-detail-logo">
+
+		<!--  NEXT ITEM kreis-gallery-next-btn -->
+				<div title="NEXT ITEM" class="col-xs-2 col-lg-1 icon icon-chevron-right gallery-next gallery-nav" id="kreis-gallery-next-btn" (click)="nextItem()" ></div>
+	</div>
+	<div class="col-xs-12 col-md-3 brands-catalog-main" id="details-text">
+		<div class="col-xs-12">
+			<h1 class=" brand-display-name">{{selectedBrand.name}}</h1>
+		</div>
+		<div class="col-xs-12" id="details-description">
+			<br>
+			<p>{{selectedBrand.description}}</p>
+		</div>
+		<div class="hidden-sm col-xs-12 brands-details-close-container">
+				<button id="details-close-btn" class="btn" (click)="closeDetailsView()"  translate [translateParams]="{value: 'CLOSE'}">BRANDS.CLOSE</button>
+		</div>
+	</div>
+	<div class="col-xs-12 col-lg-4 details-right">
+		<div class="col-xs-12 clearfix"><br></div>
+		
+			<div class="hidden-lg col-xs-12 brands-details-close-container">
+					<button id="details-close-btn" class="btn" (click)="closeDetailsView()" translate [translateParams]="{value: 'CLOSE'}">BRANDS.CLOSE</button>
+			</div>
+	</div>
+</div>
+
+<div id="MenuPane" class="{{MenuPane}}">
+	<div title="Kreis Kitchens" id="kitchensBtn" class="{{kitchensBtn}}" (click)="ChangeSelectedBrand(0)" >
+		<img id="kitchensBtnIcon" src="{{getBrandLogo(0)}}"  alt="Kreis Kitchens" class="{{kitchensBtnIcon}}">
+		<div class="brand-label" id="kitchens-btn-label">Kitchens</div>
+	</div>
+	<div title="Kreis Architects & Partners" id="achitectsBtn" class="{{achitectsBtn}}" (click)="ChangeSelectedBrand(1)" >
+		<img id="achitectsBtnIcon" src="{{getBrandLogo(1)}}" alt="" class="{{achitectsBtnIcon}}">
+		<div class="brand-label" id="kitchens-btn-label">Architecs</div>
+	</div>
+	<div title="Kreis Arts & Crafts" id="artsBtn" class="{{artsBtn}}" (click)="ChangeSelectedBrand(2)" >
+		<img id="foundationBtnIcon" src="{{getBrandLogo(2)}}"  alt="Kreis Arts & Crafts" class="{{artsBtnIcon}}">
+		<div class="brand-label" id="kitchens-btn-label">Arts & Crafts</div>
+	</div>
+	<div title="Kreis Foundation" id="artsBtn" class="{{artsBtn}}" (click)="ChangeSelectedBrand(3)" >
+		<img id="artsBtnIcon" src="{{getBrandLogo(3)}}" alt="" class="{{foundationBtnIcon}}">
+		<div class="brand-label" id="kitchens-btn-label">Sacro</div>
+	</div>
+</div>
+<!-- =================== brands-catag.component.html  =================== -->

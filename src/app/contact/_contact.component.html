@@ -1,0 +1,141 @@
+<!--
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: HTML view for Kreis Industries Website  /contact                 ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+
+
+<!-- =================== contact.component.html Template for ContactComponent ======== -->
+	<section class="kreis-contact" id="kreis-contact-section" data-type="background" data-speed="5"><!-- Start of section -->		
+<!--  ========================================Page header======================================== -->
+		<div class="col-xs-0 col-md-5"></div>
+		<div class="col-xs-12 col-md-6">
+			<app-navi></app-navi>
+		</div>
+		<div class="col-xs-0 col-md-1"></div>
+<!-- ========================================/Page header======================================== -->
+
+<!-- ======================================== Page content======================================= -->
+		<article id="contact-content">
+			<div class="row-fluid no-padding">
+
+	<!-- =============================== LEFT container =============================== -->
+			<div class="col-lg-7 contact-container" id="kreis-contact-left-container">	
+				
+				<!-- Section title -->
+					<div class="col-lg-12 contact-left-top" id="kreis-contact-left-top" >
+						<!-- <div class="col-lg-6 contact-title" id="kreis-contact-title"> -->
+							<h1>Contact</h1>
+						<!-- </div> -->
+					</div>
+				<!-- / Section title -->
+
+				<!-- Section blur-->
+					<div class="col-lg-12 contact-blur" id="kreis-contact-blur" ></div>
+				<!-- / Section blur -->
+
+				<!-- Contact form / section pattern -->
+					<div class="col-lg-12 contact-form" id="kreis-contact-form-container" >
+
+					<!-- Contact form  -->
+						<form class="col-lg-8 contact-form-container form-horizontal">
+							<div class="form-group ">
+								<label class="col-lg-2" for="contact_name">Name: </label>
+								<div class="col-lg-10">
+									<input type="text"  class="form-control" id="contact_name" title="Input your name">
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label class="col-lg-2" for="contact_mail">Email</label>
+								<div class="col-lg-10">
+									<input type="email" class="form-control" id="contact_mail" title="Input your EMail">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label  class="col-lg-2" for="contact_subject">Subject</label>		    					<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact_subject" title="Subject (Optional)">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-2" for="contact_msg">Message</label>		    						<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact_msg" title="Your message">
+								</div>
+							</div>
+							
+						</form>
+					<!-- Contact form  -->
+
+					<!-- Contact info block  -->
+						<div class="col-lg-4">
+							<div class="col-lg-12 contact-info contact-info-spacer"></div>
+							<div class="col-lg-12 contact-info contact-info-data">
+								<p>e-mail: contact@kreisindustries.com</p>
+								<p>Messenger: user ID</p>
+								<p>Phone: 510 777 5454 | 510 777 5656</p>
+								<p>www.kreisindustries.com</p>
+							</div>
+							<div class="col-lg-12 contact-info contact-info web">
+								<br><br>
+								<p>Some Nice Avenue #999, Jal, Mex.</p>
+							</div>
+							<div class="col-lg-12 contact-logo-sm"></div>
+						</div>
+					</div>
+				<!-- Contact form / section pattern -->
+
+				<!-- Map element -->
+					<div class="col-lg-12 contact-left-bottom" id="kreis-contact-left-bottom" >
+						<div class="col-lg-8"></div>
+						<div class="col-lg-4 contact-map" id="kreis-contact-map" ></div>
+					</div>
+				<!-- Map element -->
+			</div>
+	<!-- =============================== / LEFT container =============================== -->
+				
+	<!-- =============================== RIGHT container =============================== -->
+			<div class="col-lg-5" id="kreis-contact-right-container">
+				<div class="col-lg-12" id="kreis-contact-right-top" >
+					<div class="col-lg-5 contact-quote">
+						<p>" {{contact_quote}} "</p>
+						<p>{{contact_qoute_author}}</p>
+					</div>
+					<div class="col-lg-7"></div>
+				</div>
+				<div class="col-lg-12" id="kreis-contact-right-middle" ></div>
+				<div class="col-lg-12" id="kreis-contact-right-bottom" >
+					<div class="col-lg-2"></div>
+					<div class="col-lg-1 socia-icon social-fb "></div>
+					<div class="col-lg-1 socia-icon social-yt "></div>
+					<div class="col-lg-1 socia-icon social-tw "></div>
+					<div class="col-lg-1 socia-icon social-ins "></div>
+					<div class="col-lg-1 socia-icon social-lin "></div>
+					<div class="col-lg-1 socia-icon social-ggl "></div>
+					<div class="col-lg-1 socia-icon social-pin "></div>
+					<div class="col-lg-1 socia-icon "></div>
+					<div class="col-lg-2"></div>
+				</div>
+			</div>				
+	<!-- =============================== / RIGHT container =============================== -->
+
+
+
+
+	<!--  ======================================== Page footer ======================================== -->
+				<div class="col-xs-12 contact-footer footer-container">		
+					<footer-component >
+						<!-- FooterComponent is automatically loaded inside the <footer-component></footer-component> HTML element  -->
+					</footer-component>
+				</div>
+	<!-- ========================================/Page footer ======================================== -->
+			</div><!-- /row-fluid -->
+		</article> <!-- /contact-content -->
+<!-- ========================================/Page content======================================== -->	
+	</section><!--End of Section -->
+<!-- =================== /contact.component.html Template for ContactComponent ======= -->

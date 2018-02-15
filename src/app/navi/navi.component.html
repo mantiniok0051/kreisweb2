@@ -1,0 +1,59 @@
+<!--
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description:  HTML view for Kreis Industries Website Navigation bar           ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+
+<!-- =================== navi.component.html  =================== -->
+				<div class="navbar-wrapper">
+
+					<nav class="navbar navbar-fixed-top navbar-light bg-faded">
+
+						<div class="row-fluid">
+
+							<div class="navbar-header">
+								<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navigation-menu" aria-expanded="false">
+									<span title="Show / Hide navigation menu" class="sr-only">Show / Hide Navigation menu</span>
+									<span title="Show / Hide navigation menu" class="icon icon-dots-three-vertical" id="Nav-caret"></span>					
+								</button>
+							</div><!-- navbar-header -->
+
+							<div class="collapse navbar-collapse" id="navigation-menu">	
+
+								<ul class="nav navbar-nav navbar-right">
+									<li title="Welcome"  class="nav-item " >
+										<a id="nav-welcome" [routerLink]="['../welcome']" class="nav-link "  routerLinkActive="active" translate [translateParams]="{value: 'Welcome'}">NAVY.WELCOME</a>
+									</li>
+									<li title="About Kreis Industries"  class="nav-item bg-faded" >
+										<a id="nav-about" [routerLink]="['../about']" class="nav-link" routerLinkActive="active" translate [translateParams]="{value: 'About'}">NAVY.ABOUT</a>
+									</li>
+									<li title="Service portfolio"  class="nav-item bg-faded" >
+										<a id="nav-services" [routerLink]="['../service-potfolio']" class="nav-link" routerLinkActive="active" translate [translateParams]="{value: 'Services'}">NAVY.SERVICES</a>
+									</li>
+									<li  title="Brand portfolio" class="nav-item bg-faded" >
+										<a id="nav-brands" [routerLink]="['../brands']" class="nav-link"  routerLinkActive="active" translate [translateParams]="{value: 'Brands'}">NAVY.BRANDS</a>
+									</li>
+									<li  title="Photo gallery" class="nav-item bg-faded" >
+										<a id="nav-gallery" [routerLink]="['../subsidiaries']"class="nav-link" routerLinkActive="active"  translate [translateParams]="{value: 'Subsidiaries'}">NAVY.SUBSIDIARIES</a>
+									</li>
+									<li  title="Photo gallery" class="nav-item bg-faded" >
+										<a id="nav-gallery" [routerLink]="['../clients']"class="nav-link" routerLinkActive="active"  translate [translateParams]="{value: 'Clients'}">NAVY.CLIENTS</a>
+									</li>
+									<li  title="Contact us" class="nav-item bg-faded" >
+										<a id="nav-contact" [routerLink]="['../contact']" class="nav-link" routerLinkActive="active"  translate [translateParams]="{value: 'Contact'}">NAVY.CONTACT</a>
+									</li>
+									<li  title="Contact us" class="nav-item bg-faded" >
+										<a id="nav-contact" class="nav-link" translate [translateParams]="{value: 'English'}" (click)="updateLanguage()">NAVY.LANG</a>
+									</li>
+								</ul> <!-- nav navbar-nav navbar-right -->
+
+							</div> <!-- navigation-menu  -->
+						</div> <!-- /container-fluid -->
+					</nav> <!-- /navbar navbar-fixed-top navbar-light bg-faded -->
+				</div> <!-- /navbar-wrapper -->
+<!-- =================== navi.component.html  =================== -->

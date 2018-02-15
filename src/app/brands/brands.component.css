@@ -1,0 +1,76 @@
+.brands{
+	background-image:url('../../assets/imgs/backgrounds/brands.jpg');
+}
+.logo-container{
+	z-index: 8888;
+	margin-top: -20%;
+	margin-bottom: -3%;
+	text-align: right;
+	/*background-color: rgba(40,40,40,.8);*/
+}
+.kreis-logo{
+	z-index: 8888;
+	display: inline-block;
+	margin-right: -1.5%;
+	max-width: 30%;
+	max-height: 30%;
+}
+.section-title h1{
+	z-index: 8888;
+	text-align: right;
+	margin-right: 3%;
+	margin-top: 3.5%;
+}
+.kreis-logo-sm{
+z-index: 8888;
+margin-right: 3%;
+margin-top: -44%;
+}
+.kreis-logo-small{
+	z-index: 8888;
+	max-width: 10%;
+	max-height: 10%;
+}
+.lines-container{
+	z-index: 9999;
+	margin-left: -1.1%;
+	margin-right: -1.1%;
+	margin-top: 10%;
+	margin-bottom: 4%;
+	border: solid 2px #b3b3b3;
+	display: inline-block;
+}
+.brand-lines{
+	z-index: 9999;
+	max-width: 100%;
+	max-height: 100%;
+}
+.blur-wrap {
+	padding: 0.1%;	
+	overflow: hidden;
+	display: inline-block;
+	margin-top: -100%;
+	margin-bottom: 10%;
+}
+.darken{
+	z-index: 0;
+	margin-right: -1.5%;
+	margin-left: -1.5%;
+	display: block;
+	margin-top: 12%;
+	margin-bottom: -50%;
+} 
+.blur{
+	background-color: rgba(0, 0, 0, 0.2);
+	position: relative;
+	-webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+.blur-img{
+	z-index: 0;
+	max-width: 100%;
+	max-height: 100%;
+}

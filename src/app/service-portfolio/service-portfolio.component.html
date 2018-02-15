@@ -1,0 +1,103 @@
+<!--
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: HTML view for Kreis Industries Website  /service-portfolio       ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+
+
+<!-- =================== service-portfolio.component.html Template for ServicePortafolioComponent ======== -->
+	<section id="kreis-services-section" data-type="background" data-speed="5" class="kreis-services"><!-- Start of section -->
+		
+<!--  ========================================Page header======================================== -->
+		<div class="hidden-sm col-md-5"></div>
+		<div class="col-xs-12 col-md-6 navi-container">
+<!-- NavigationComponent-->
+			<app-navi></app-navi>		
+		</div>
+		<div class="hidden-sm col-md-1"></div>
+<!-- ========================================/Page header======================================== -->
+
+<!-- ======================================== Page content======================================= -->
+		<article id="services-content">
+			<div class="row-fluid">	
+
+			<!-- Content foreground -->
+				<div class="col-xs-12 hidden-lg services-title-mob">
+						<h1 class="hidden-lg " translate [translateParams]="{value: 'Services'}">SERVICES.TITLE</h1>
+				</div>
+				<div class="col-xs-12 services-content-bg">
+				
+				<div class="col-xs-12 services-title-ipadv hidden-sm">
+						<h1 class="visible-ipadv" translate [translateParams]="{value: 'Services'}">SERVICES.TITLE</h1>
+				</div>
+					<div class="hidden-sm col-lg-3"></div>
+ 					<div class="col-lg-3 service">
+							<h3 translate [translateParams]="{value: 'Architecture'}">SERVICES.ARCH_HDR</h3>
+							<p translate [translateParams]="{value: 'We are'}">SERVICES.ARCH_TXT</p>
+					</div>
+					<div class="col-lg-3 service">
+								<h3 translate [translateParams]="{value: 'Furniture & Interior Design'}">SERVICES.FID_HDR</h3>
+								<p translate [translateParams]="{value: 'We specialize'}">SERVICES.FID_TXT</p>
+					</div>
+					<div class="col-lg-3 service">
+								<h3 translate [translateParams]="{value: 'Visual Arts'}">SERVICES.VA_HDR</h3>
+								<p translate [translateParams]="{value: 'We create'}">SERVICES.VA_TXT</p>
+					</div>
+					<div class="col-xs-12 hidden-sm services-legend">
+						<div class="col-lg-4 hidden-sm "></div>
+						<div class="col-lg-8 hidden-sm ">
+							<p translate [translateParams]="{value: 'Services'}">SERVICES.LEGEND</p>
+						</div>
+					</div>
+				</div> 
+				<div class="col-xs-12 hidden-lg services-legend-mob">
+					<p>â€œA percentage of all our profits is donated to the Kreis Foundation, to help and support in the education of disadvantaged children and youths throughout the world. â€� 
+							</p>
+				</div>
+	<!--	 / Content foreground  -->
+
+			<!-- Section logo -->
+					<div class="hidden-sm hidden-ipadv col-lg-4 services-logo-container"></div>
+			<!-- / Section logo -->
+		<!-- Section blur-->
+				<div class="col-xs-12 services-blur"></div>
+		<!-- / Section blur -->
+
+		<!-- Section pattern -->
+				<div class="col-xs-12 services-lines"></div>
+		<!-- / Section pattern -->	
+				
+			<!-- Section title -->
+				<div class="col-lg-12 services-last">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-3 services-title hidden-sm">
+						<h1 class="" translate [translateParams]="{value: 'Services'}">SERVICES.TITLE</h1>
+					</div>				
+					<div class="col-lg-5 hidden-sm"></div>				
+					<div class="col-lg-2 services-logo-sm hidden-sm"></div>
+				</div>
+			<!-- / Section title -->
+
+
+
+
+
+	<!--  ======================================== Page footer ======================================== -->
+			<div class="col-xs-12 services-footer footer-container">		
+				<footer-component >
+					<!-- FooterComponent is automatically loaded inside the <footer></footer HTML element  -->
+				</footer-component>
+			</div>
+<!-- ========================================/Page footer ======================================== -->
+				</div><!-- /row-fluid -->
+		</article> <!-- /about-content -->
+<!-- ========================================/Page content======================================== -->	
+		
+	</section><!--End of Section -->
+
+<!-- =================== service-portfolio.component.html Template for WelcomeComponent =================== -->

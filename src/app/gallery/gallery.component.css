@@ -1,0 +1,175 @@
+/*
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: CSS style for Kreis Industries Website  gallery items            ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================    
+
+	Add more itesm just bi adding the corresponding class and regiter in the Back end
+
+*/
+
+/* ========= Kitchens Album ==========*/
+
+.kitchens-0{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-1.jpg');
+}
+.kitchens-1{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-2.jpg');
+}
+.kitchens-2{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-3.jpg');
+}
+.kitchens-3{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-4.jpg');
+}
+.kitchens-4{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-5.jpg');
+}
+.kitchens-5{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-6.jpg');
+}
+.kitchens-6{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-7.jpg');
+}
+.kitchens-7{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-8.jpg');
+}
+.kitchens-8{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-9.jpg');
+}
+.kitchens-9{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-10.jpg');
+}
+.kitchens-10{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-11.jpg');
+}
+.kitchens-11{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-12.jpg');
+}
+.kitchens-12{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-13.jpg');
+}
+.kitchens-13{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-14.jpg');
+}
+.kitchens-14{
+	background-image: url('/assets/imgs/GalleryImages/KreisKitchens/KreisKitchens-15.jpg');
+}
+
+/* ========= / Kitchens Album ==========*/
+
+/* ========= Architecture Album ==========*/
+
+.architecture-0{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-1.jpg');
+}
+.architecture-1{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-2.jpg');
+}
+.architecture-2{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-3.jpg');
+}
+.architecture-3{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-4.jpg');
+}
+.architecture-4{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-5.jpg');
+}
+.architecture-5{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-6.jpg');
+}
+.architecture-6{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-7.jpg');
+}
+.architecture-7{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-8.jpg');
+}
+.architecture-8{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-9.jpg'); 
+}
+.architecture-9{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-10.jpg');
+}
+.architecture-10{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-11.jpg');
+}
+.architecture-11{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-12.jpg');
+}
+.architecture-12{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-13.jpg');
+}
+.architecture-13{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-14.jpg');
+}
+.architecture-14{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-15.jpg');
+}
+.architecture-15{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-16.jpg');
+}
+.architecture-16{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-17.jpg');
+}
+.architecture-17{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-18.jpg');
+}
+.architecture-18{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-19.jpg');
+}
+.architecture-19{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-20.jpg');
+}
+.architecture-20{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-21.jpg');
+}
+.architecture-21{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-22.jpg');
+}
+.architecture-22{
+	background-image: url('/assets/imgs/KreisArchitecture/Kreis-architects-23.jpg');
+}
+.architecture-23{
+	background-image: url('/assets/imgs/GalleryImages/KreisArchitecture/Kreis-architects-24.jpg');
+}
+
+
+/* ========= / Architecture Album ==========*/
+
+/* ========= Arts Album ==========*/
+
+.arts-0{
+	background-image: url('/assets/imgs/GalleryImages/KreisArts_Crafts/Kreis-arts-and-krafts-1.jpg');
+}
+.arts-1{
+	background-image: url('/assets/imgs/GalleryImages/KreisArts_Crafts/Kreis-arts-and-krafts-2.jpg');
+}
+.arts-2{
+	background-image: url('/assets/imgs/GalleryImages/KreisArts_Crafts/Kreis-arts-and-krafts-3.jpg');
+}
+.arts-3{
+	background-image: url('/assets/imgs/GalleryImages/KreisArts_Crafts/Kreis-arts-and-krafts-4.jpg');
+}
+.arts-4{
+	background-image: url('/assets/imgs/GalleryImages/KreisArts_Crafts/Kreis-arts-and-krafts-5.jpg');
+}
+.arts-5{
+	background-image: url('/assets/imgs/GalleryImages/KreisArts_Crafts/Kreis-arts-and-krafts-6.jpg');
+}
+.arts-6{
+	background-image: url('/assets/imgs/GalleryImages/KreisArts_Crafts/Kreis-arts-and-krafts-7.jpg');
+}
+
+/* ========= / Arts Album ==========*/
+
+
+
+
+
+
+
+

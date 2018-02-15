@@ -1,0 +1,81 @@
+<!--
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: Base HTML code for Kreis Industries Website                      ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+
+
+<!-- =================== brands.component.html Template for BrandsComponent =================== -->
+	<section  id="kreis-brands-section" data-type="background" data-speed="5" class="kreis-brands"><!-- Start of section -->
+
+<!--  ========================================Page header======================================== -->
+			<div class="col-xs-0 col-md-5"></div>
+			<div class="col-xs-12 col-md-6 app-navi">
+	<!-- ==============  NavigationComponent ============== -->
+				<app-navi></app-navi>		
+			</div>
+			<div class="col-xs-0 col-md-1"></div>
+<!-- ========================================/Page header======================================== -->
+
+<!-- ======================================== Page content======================================= -->
+		<article id="brands-content">
+			<div class="row-fluid tall-row">
+				
+				<div class="clearfix visible-sm-block"></div>	
+	
+		<!-- Section title MOBILE  -->
+				<div class="col-xs-12  brands-title">
+					<h1 translate [translateParams]="{value: 'Brands'}">BRANDS.TITLE</h1>
+				</div>
+		<!-- / Section title MOBILE -->	
+
+	<!-- kreis-industires-logo-small  -->
+				<div class="hidden-sm col-lg-2 brands-logo-sm hidden-ipadv"></div>
+				<div class="col-xs-0 col-lg-10 clearfix"></div>
+	<!-- kreis-industires-logo-small  -->		
+
+				
+	<!-- Section blur-->
+				<div class="col-xs-12 brands-blur"></div>
+	<!-- / Section blur -->
+
+
+	<!-- Section pattern -->
+				<div class="col-xs-12 brands-lines"></div>
+	<!-- / Section pattern -->
+<!-- ========================================/brands catalog ======================================== -->
+				<div id="brands-catalog" class="col-xs-12 brands-catalog">
+					<brands-catalog></brands-catalog>
+				</div>				 
+<!-- ========================================/brands catalog ======================================== -->
+	
+		<!-- Section title -->
+				<div class="hidden-sm col-xs-0 col-lg-9"></div>
+				<div class="col-xs-12 hidden-sm col-lg-3 brands-title hidden-ipadv">
+					<h1 translate [translateParams]="{value: 'Brands'}">BRANDS.TITLE</h1>
+				</div>
+		<!-- / Section title -->	
+		<!-- Section logo -->
+				<div class=" hidden-sm col-xs-0 col-lg-8 clearfix  hidden-ipadv"></div>
+					<div class=" hidden-sm col-xs-12 col-lg-4  brands-logo hidden-ipadv" id="kreis-brands-logo">
+				</div>
+			<!-- / Section logo -->
+				
+<!--  ========================================Page footer ======================================== -->
+			<div class="col-xs-12 brands-footer footer-container">		
+				<footer-component >
+					<!-- FooterComponent is automatically loaded inside the <footer></footer HTML element  -->
+				</footer-component>
+			</div>
+<!-- ========================================/Page footer ======================================== -->
+			</div><!-- /row-fluid -->
+		</article> <!-- /about-content -->
+<!-- ========================================/Page content======================================== -->		
+
+	</section><!--End of Section     -->
+<!-- =================== brands.component.html Template for BrandsComponent =================== -->

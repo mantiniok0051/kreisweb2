@@ -1,0 +1,91 @@
+.welcome{
+	background-image: url('../../assets/imgs/backgrounds/Kreis-workshop1.jpg');
+	height: 100%;
+
+}
+.navi-container{
+
+}
+.section-title{
+	position: absolute;
+	margin-top: -5%;
+	z-index: 4444;
+}
+.logo-container{
+	margin-top:21%;
+	margin-left: 30%;
+	z-index: 8888;
+	width: 50%;
+	text-align: center;
+	/*border: 2px solid #D91C5C;*/
+/*	background-color: rgba(40,40,40,.8);	*/
+	z-index: 8888;
+	display: inline;
+	overflow: hidden;	
+	text-align: center;
+}
+.KreisIndustries-logo{
+	max-height: 50%;
+	max-width: 50%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 8888;
+	display: block;
+	/*border: 2px solid #D91C5C;*/
+}
+.lines-container{
+	position: absolute;
+	margin-left: -7%;
+	margin-right:-5%;
+	margin-top: -4%;
+	z-index: 1;
+	text-align: right;
+	overflow: hidden;
+	border: 1px solid #D3D3D3;
+	/*background-color: rgba(40,40,40,.8);*/
+}
+.welcome-lines{
+	margin-top: -3%;
+    background-color: rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	max-height: auto;
+	max-width: 110%;
+}
+.blur-wrap{
+	margin-bottom: ;
+	margin-top:-18% ;
+	margin-left: -5% ;
+	margin-right: -5%;
+	position: absolute;
+	z-index: 1;
+	border: 2px solid #D91C5C;
+	overflow: hidden;
+}
+.darken{
+	margin-top: -3%;
+	margin-left: -5%;
+	z-index: 1;
+	border: 2px solid #D91C5C;
+ }
+.blur{
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+	-webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(1px);
+    filter: blur(8px);
+}
+.navi-container{
+	position: absolute;
+	margin-top: -2.5%;
+	margin-left: -3%;
+}
+.blur-img{/*
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: -10%;*/
+	max-height: auto;
+	max-width: 100%;
+}

@@ -1,0 +1,67 @@
+<!--
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: Base HTML code for Kreis Industries Website                      ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+
+
+<!-- =================== welcome.component.html Template for WelcomeComponent =================== -->
+		<section id="kreis-welcome-section" data-type="background" data-speed="5" class="kreis-welcome">
+
+<!--  ========================================Page header======================================== -->
+		<div class="col-xs-0 col-md-5"></div>
+		<div class="col-xs-12 col-md-6 app-navi">
+<!-- NavigationComponent-->
+			<app-navi></app-navi>		
+		</div>
+		<div class="col-xs-0 col-md-1"></div>
+<!-- ========================================/Page header======================================== -->
+
+<!-- ======================================== Page content======================================= -->
+			<article id="welcome-content">
+				<!-- <div class="container-fluid"> -->
+					<div class="row-fluid">
+			<div class="clearfix visible-sm-block"></div>							
+<!-- Section blur-->
+						<div class="col-xs-12 welcome-blur"></div>
+<!-- / Section blur -->
+
+<!-- Section pattern -->
+						<div class="col-xs-12 welcome-lines"></div>
+<!-- / Section pattern -->
+
+<!-- Section title -->
+						<div class="col-xs-12">
+							<h1 id="kreis-welcome-title" class="welcome-title section-title">{{'WELCOME.TITLE' | translate:param}}</h1>
+						</div>
+<!-- / Section title -->
+
+<!-- Welcome Section logo -->
+				<div class="col-xs-12 welcome-logo-container">
+					<img  class="img-responsive welcome-logo" src="/assets/imgs/iconos-logos/Kreis-logo-full-color-Large.png" alt="Kreis Industries">
+				</div>
+<!-- / Welcome Section logo -->
+
+
+
+
+
+<!--  ========================================Page footer ======================================== -->
+			<div class="col-xs-12 welcome-footer footer-container">		
+				<footer-component >
+					<!-- FooterComponent is automatically loaded inside the <footer></footer HTML element  -->
+				</footer-component>
+			</div>
+<!-- ========================================/Page footer ======================================== -->
+					</div><!-- /row-fluid -->
+			<!--	</div> /container-fluid -->
+			</article> <!-- /about-content -->
+<!-- ========================================/Page content======================================== -->			
+		</section>
+
+<!-- =================== /welcome.component.html Template for WelcomeComponent =================== -->

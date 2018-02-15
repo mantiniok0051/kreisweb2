@@ -1,0 +1,258 @@
+/*----------------------- Brands section styles ---------------------------*/
+.tall-row{
+	height:1079px;
+}
+.kreis-clients{
+		height: 1080px;
+		width: 1920px;
+		color: white;
+}
+.clients-logo-sm{
+	height: 200px;
+	background-size: 62%;
+}
+.clients-blur{
+	width: 100%;
+	height: 853px;
+    margin-top: 0.3%;
+} 
+.clients-lines{
+	background-size: 100%;
+	height: 853px;
+	width: 100%;
+	margin-top: -44.5%;
+	background-color: rgba(85, 85, 85, 0.34);
+}
+.clients-catalog{
+	height: 853px;
+	width: 100%;
+	max-height: 100%;
+	padding:-2%;
+	margin-top: -44.5%;
+}
+.clients-title{	
+	margin-top: -51%;
+}
+.clients-title h1{
+	font-size:7.5em;
+}
+.clients-footer{
+	font-size: 1.5em;
+	margin-top: -0%;
+	margin-bottom: -2%;
+}
+.client{
+	max-height: 20% !important;
+	max-width: 25% !important;
+	height: 20%;
+	width: 20%;
+	border: solid 0px white;
+	text-align: middle center;
+}
+.client-sm{
+	height: 50px !important;
+	width: 50px !important;
+}
+.client-city-capital{
+	background-image: url('../../assets/imgs/logos-clientes/citycapital.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-camara-comercio{
+	background-image: url('../../assets/imgs/logos-clientes/camara-comercio.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-hospital-angeles{
+	background-image: url('../../assets/imgs/logos-clientes/hospital-angeles.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-legorreta{
+	background-image: url('../../assets/imgs/logos-clientes/legorreta.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-gsm{
+	background-image: url('../../assets/imgs/logos-clientes/grupo-sordomaleno.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-informador{
+	background-image: url('../../assets/imgs/logos-clientes/informador.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-omnilife{
+	background-image: url('../../assets/imgs/logos-clientes/omnilife.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-camino-real{
+	background-image: url('../../assets/imgs/logos-clientes/camino.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-udg{
+	background-image: url('../../assets/imgs/logos-clientes/udg.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-riu{
+	background-image: url('../../assets/imgs/logos-clientes/riu.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-pta-hierro{
+	background-image: url('../../assets/imgs/logos-clientes/puerta-de-hierro-residencial.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-sport-city{
+	background-image: url('../../assets/imgs/logos-clientes/sport_city.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-pueblo{
+	background-image: url('../../assets/imgs/logos-clientes/pueblo-bonito.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-rosewood{
+	background-image: url('../../assets/imgs/logos-clientes/roosewood-san-miguel.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-hacienda{
+	background-image: url('../../assets/imgs/logos-clientes/hacienda.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-aeromexico{
+	background-image: url('../../assets/imgs/logos-clientes/aeromexico.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-maz{
+	background-image: url('../../assets/imgs/logos-clientes/maz.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-aplijsa{
+	background-image: url('../../assets/imgs/logos-clientes/aplijsa.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-country-club{
+	background-image: url('../../assets/imgs/logos-clientes/country_club.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-legionari{
+	background-image: url('../../assets/imgs/logos-clientes/legionari.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-alpes{
+	background-image: url('../../assets/imgs/logos-clientes/alpes.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-alpes-2{
+	background-image: url('../../assets/imgs/logos-clientes/alpes-2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-cumbres{
+	background-image: url('../../assets/imgs/logos-clientes/cumbres.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-cdmx{
+	background-image: url('../../assets/imgs/logos-clientes/cdmx.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+.client-mayan{
+	background-image: url('../../assets/imgs/logos-clientes/mayan_palace.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*----------------------- Clients section styles ---------------------------*/

@@ -1,0 +1,255 @@
+<!--
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+					hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+					hhhhhhyso+//////////////////////////////+osyhhhhhh
+					hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+					hhhhsso++////-.       .-//-.       .-////++++shhhh
+					hhhhsssssoo::////////`      `////////::++++++shhhh
+					hhhhssssssso+++osssss:      :ssssso++++++++++shhhh
+					hhhhsssssssso/``....++      ++....` :++++++++shhhh
+					hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+					hhhhssssssssssso      .::::.      +++++++++++shhhh
+					hhhhssssssssssss       `++`       +++++++++++shhhh
+					hhhhssssssssssss        ++        +++++++++++shhhh
+					hhhhssssssssssss.      `++`      .+++++++++++shhhh
+					hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+					hhhhssssssssssssssss+        /+++++++++++++++shhhh
+					hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+					hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+					hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+					hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+		
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: HTML view for Kreis Industries Website  /contact                 ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+
+<!-- =================== contact.component.html Template for ContactComponent ======== -->
+	<section class="kreis-contact" id="kreis-contact-section" data-type="background" data-speed="5"><!-- Start of section -->		
+<!--  ========================================Page header======================================== -->
+		<div class="col-xs-0 col-md-5"></div>
+		<div class="col-xs-12 col-md-6">
+			<app-navi></app-navi>
+		</div>
+		<div class="col-xs-0 col-md-1"></div>
+<!-- ========================================/Page header======================================== -->
+
+<!-- ======================================== Page content======================================= -->
+		<article id="contact-content">
+			<div class="row-fluid no-padding">
+
+	<!-- =============================== LEFT container =============================== -->
+			<div class="col-lg-7 contact-container" id="kreis-contact-left-container">	
+				
+				<!-- Section title -->
+					<div class="col-lg-12 contact-left-top" id="kreis-contact-left-top" >
+						<!-- <div class="col-lg-6 contact-title" id="kreis-contact-title"> -->
+							<h1 translate [translateParams]="{value: 'Contact'}">CONTACT.TITLE</h1>
+						<!-- </div> -->
+					</div>
+				<!-- / Section title -->
+
+				<!-- Section blur-->
+					<div class="col-lg-12 contact-blur" id="kreis-contact-blur" ></div>
+				<!-- / Section blur -->
+
+				<!-- Contact form / section pattern -->
+					<div class="col-lg-12 contact-form" id="KreisContactForm" >
+
+					<!-- Contact form  -->
+						 <form class="form-horizontal" [formGroup]="contact_form" (ngSubmit)="onSubmit()"> 
+							<div class="form-group col-xs-12 col-lg-6">
+								<label class="col-xs-3  contact-label" for="contact_name" translate [translateParams]="{value: 'Contact'}">CONTACT.NAME_LABEL</label>
+								<div class="col-xs-9">
+									<input formControlName="contact_name" required type="text"  class="form-control input-lg" id="contact_name" title="Input your name" name="contact_name">
+								</div>
+							</div>
+
+							<div class="form-group col-xs-12 col-lg-6">
+								<label class="col-xs-3  contact-label" for="contact_mail"  translate [translateParams]="{value: 'Contact'}">CONTACT.MAIL_LABEL</label>
+								<div class="col-xs-9">
+									<input formControlName="contact_mail" required type="email" class="form-control input-lg" id="contact_mail" title="Input your EMail" name="contact_mail">
+								</div>
+							</div>
+
+							<div class="form-group col-xs-12 col-lg-6">
+								<label  class="col-xs-3  contact-label" for="contact_subject" translate [translateParams]="{value: 'Contact'}">CONTACT.SUBJECT_LABEL</label>		    
+									<div class="col-xs-9">
+										<input formControlName="contact_subject" type="text" class="form-control input-lg" id="contact_subject" title="Subject (Optional)"  name="contact_subject">
+								</div>
+							</div>
+							
+														
+							<div class="form-group col-xs-12 col-lg-8">
+								<textarea formControlName="contact_msg" required class="form-control input-lg"  id="contact_msg" title="Your message"  name="contact_msg" ></textarea>
+							</div>
+
+							
+							
+							<re-captcha language="en" class="col-xs-12 col-lg-6" theme="dark" size="normal" site_key="6LfE3SUUAAAAAOYW3AGd88qIsr38nmwPH5dKjtnF" (captchaResponse)="processReCaptcha($event)"></re-captcha>
+
+							<input name="contact_send_btn" [disabled]="!contact_form.valid && !isTrusted" value="Submit" type="submit" class="col-xs-12 col-lg-2 contact-send-btn" id="contact_send_btn">
+						</form>
+						
+					<!-- Visible only in IpadPro  -->
+						<div class="col-xs-8 hidden-lg contact-data-block-ipadh contact-info-data hidden-sm">
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.MAIL</p>
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.PHONE</p>
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.WEB</p>
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.ADRESS</p>
+						</div>
+						<div class="col-xs-4 contact-logo-sm-ipad hidden-sm  hidden-ipadv hidden-lg"></div>
+
+					<!-- Contact form  -->
+
+					<!-- Contact info block  -->
+						<div class="hidden-ipadh hidden-sm col-lg-4 contact-data-block">
+							<div class="col-lg-12 contact-info contact-info-data hidden-sm">
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.MAIL</p>
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.PHONE</p>
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.WEB</p>
+							</div>
+							<div class="col-lg-12 contact-info contact-info web hidden-sm">
+								<br>
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.ADRESS</p>
+							</div>
+							<div class="col-lg-12 contact-logo-sm  hidden-sm">
+								
+							</div>
+						</div>
+					</div>
+				<!-- Contact form / section pattern -->
+
+				<!-- Map element -->
+					<div class="hidden-sm col-lg-12 contact-left-bottom" id="kreis-contact-left-bottom" >
+						<div class="col-lg-8"></div>
+						<div class="col-lg-4 contact-map hidden-sm" id="kreis-contact-map" >
+							<agm-map [latitude]="map_lat" 
+				                     [longitude]="map_lng"
+				                     [zoom]="map_zoom"
+				                     [backgroundColor]="black" 
+				                     [disableDefaultUI]="true" 
+				                     [disableDoubleClickZoom]="true"
+				                     [styles]="map_style"
+				                     >
+				                        <agm-marker [latitude]="mrk_lat" 
+				                                    [longitude]="mrk_lng"
+				                                    [label]="mrk_lbl"
+				                                    [markerDraggable]="draggable"
+				                                    [openInfoWindow]="false" 
+				                                    [opacity]="0.6" 
+				                                    [title]="mrk_lbl">
+				                        </agm-marker>
+	            		</agm-map>
+	            	</div>
+					</div>
+				<!-- Map element -->
+			</div>
+	<!-- =============================== / LEFT container =============================== -->
+				
+	<!-- =============================== RIGHT container =============================== -->
+			<div class="col-lg-5" id="kreis-contact-right-container">
+
+				<div class="col-xs-12 hidden-lg contact-info-mob">
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.MAIL</p>
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.PHONE</p>
+								<p translate [translateParams]="{value: 'Contact'}">CONTACT.WEB</p>
+				</div>
+
+				
+						<div class="col-xs-12 contact-map-mob hidden-lg" id="kreis-contact-map-mob">
+							<agm-map [latitude]="map_lat" 
+				                     [longitude]="map_lng"
+				                     [zoom]="map_zoom"
+				                     [backgroundColor]="black" 
+				                     [disableDefaultUI]="true" 
+				                     [disableDoubleClickZoom]="true"
+				                     [styles]="map_style"
+				                     >
+				                        <agm-marker [latitude]="mrk_lat" 
+				                                    [longitude]="mrk_lng"
+				                                    [label]="mrk_lbl"
+				                                    [markerDraggable]="draggable"
+				                                    [openInfoWindow]="false" 
+				                                    [opacity]="0.6" 
+				                                    [title]="mrk_lbl">
+				                        </agm-marker>
+	            		</agm-map>
+	            	</div>
+				
+				<div class="col-lg-12 contact-logo-mob hidden-lg"></div>
+
+				<div class="hidden-sm col-lg-12 contact-right-top" id="kreis-contact-right-top" >
+					<div class="hidden-sm col-lg-7 contact-quote">
+						<p translate [translateParams]="{value: 'Contact'}">CONTACT.QUOTE<br>
+							<small>-Mikkael Kreis.</small>
+						</p>
+					</div>
+				</div>
+
+				<div class="hidden-sm hidden-ipadv col-lg-12 contact-right-middle" id="kreis-contact-right-middle" >
+					
+						
+
+				</div>
+
+				<div class="hidden-sm col-lg-12 contact-right-bottom" id="kreis-contact-right-bottom" >
+					<div class="hidden-sm col-lg-2"></div>
+
+					<a title="Visit us in FaceBook" href="https://www.facebook.com/Kreis-Industries-322630954815742/" target="_blank" > 
+						<div class="hidden-sm col-lg-1 social-icon social-fb "></div>  
+					</a>
+					<a title="Visit us in YouTube" href="https://m.youtube.com/channel/UC9IeWY5CnH4K6CImQsp0CWw" target="_blank" > <div class="col-lg-1 social-icon social-yt "></div>  </a>
+					<a title="Visit us in Twiter" href="https://twitter.com/KreisIndustries" target="_blank" > 
+						<div class="hidden-sm col-lg-1 social-icon social-tw "></div>  
+					</a>
+					<a title="Visit us in Instagram" href="https://www.instagram.com/kreisindustries/" target="_blank" > 
+						<div class="hidden-sm col-lg-1 social-icon social-ins "></div>  
+					</a>
+					<a title="Visit us in LinkedIn" href="https://www.linkedin.com/in/kreis-industrias-68422677/" target="_blank" > 
+						<div class="hidden-sm col-lg-1 social-icon social-lin "></div>  
+					</a>
+					<a title="Visit us in Google+" href="https://plus.google.com/112709683399005421211?hl=es" target="_blank" > 
+						<div class="hidden-sm col-lg-1 social-icon social-ggl "></div>  
+					</a>
+					<a title="Visit us in Pinterest" href="https://es.pinterest.com/kreisindustries/?eq=kreisindustries&etslf=1508" target="_blank" > 
+						<div class="hidden-sm col-lg-1 social-icon social-pin "></div>  
+					</a>
+					 			<div class="hidden-sm col-lg-1 social-icon "></div> 			
+					 			<div class="hidden-sm col-lg-2"></div> 			
+				</div>
+			</div>				
+	<!-- =============================== / RIGHT container =============================== -->
+
+
+
+
+	<!--  ======================================== Page footer ======================================== -->
+				<div class="col-xs-12 contact-footer footer-container">		
+					<footer-component >
+						<!-- FooterComponent is automatically loaded inside the <footer-component></footer-component> HTML element  -->
+					</footer-component>
+				</div>
+	<!-- ========================================/Page footer ======================================== -->
+			</div><!-- /row-fluid -->
+		</article> <!-- /contact-content -->
+<!-- ========================================/Page content======================================== -->	<script src='https://www.google.com/recaptcha/api.js'></script>
+	 
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdZQzBktgrQ4cDyOPhf8OVUoI-JT5wSAU&callback=initMap">
+    </script>
+
+
+	</section><!--End of Section -->
+<!-- =================== /contact.component.html Template for ContactComponent ======= -->

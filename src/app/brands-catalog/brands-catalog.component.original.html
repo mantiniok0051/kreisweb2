@@ -1,0 +1,108 @@
+<!--
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhyso+//+osyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyo+//////////+oyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhyso+////////////////+osyhhhhhhhhhhhhh
+					hhhhhhhhhhys+////////////////////////+syhhhhhhhhhh
+					hhhhhhyso+//////////////////////////////+osyhhhhhh
+					hhhhyo//////////:-`.:////////:.`-://////////oyhhhh
+					hhhhsso++////-.       .-//-.       .-////++++shhhh
+					hhhhsssssoo::////////`      `////////::++++++shhhh
+					hhhhssssssso+++osssss:      :ssssso++++++++++shhhh
+					hhhhsssssssso/``....++      ++....` :++++++++shhhh
+					hhhhsssssssssso.     /`    `/     .++++++++++shhhh
+					hhhhssssssssssso      .::::.      +++++++++++shhhh
+					hhhhssssssssssss       `++`       +++++++++++shhhh
+					hhhhssssssssssss        ++        +++++++++++shhhh
+					hhhhssssssssssss.      `++`      .+++++++++++shhhh
+					hhhhssssssssssssso:``..`  `..``:+++++++++++++shhhh
+					hhhhssssssssssssssss+        /+++++++++++++++shhhh
+					hhhhyssssssssssssssss-      -++++++++++++++ooyhhhh
+					hhhhhhhyssssssssssssso.    `++++++++++++osyhhhhhhh
+					hhhhhhhhhhyysssssssssssso+++++++++++oosyhhhhhhhhhh
+					hhhhhhhhhhhhhhyssssssssso++++++++osyhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhyyssssso+++++osyhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhysso+osyyhhhhhhhhhhhhhhhhhhhh
+					hhhhhhhhhhhhhhhhhhhhhhhhyyhhhhhhhhhhhhhhhhhhhhhhhh
+		
+  ====================================================================================
+  ||  Version: 1.0                                                                  ||
+  ||  Creation date: June 2017                                                      ||
+  ||  Autor: Created by Green Lyon                                                  || 
+  ||  Owner: Kreis Industries                                                       || 
+  ||  Description: HTML viewfor Kreis Industries Website   /Brands/catalog          ||
+  ||  Last change: Creation Ver 1.0 June 2017 Green Lyon> Mariano Soto              ||
+  ====================================================================================                
+-->
+<!-- =================== brands-catag.component.html  =================== -->
+<div id="DetailsPane" class="{{DetailsPane}}"> 
+	<div class="col-xs-12 col-md-3 ">
+		<div class="clearfix"></div>
+		<img src="{{selectedBrand.logo}}" alt="" class="img-responsive brand-detail-logo" id="brand-detail-logo">
+		<div class="clearfix"></div>
+	</div>
+	<div class="col-xs-12 col-lg-5 brands-catalog-main" id="details-text">
+		<div class="col-xs-12">
+			<h1 class=" brand-display-name">{{selectedBrand.name}}</h1>
+		</div>
+		<div class="col-xs-12" id="details-description">
+			<br>
+			<p>{{selectedBrand.description}}</p>
+		</div>
+		<div class="hidden-sm col-xs-12 brands-details-close-container">
+				<button id="details-close-btn" class="btn" (click)="closeDetailsView()" >CLOSE</button>
+		</div>
+	</div>
+	<div class="col-xs-12 col-lg-4 details-right">
+		<div class="col-xs-12 clearfix"><br></div>
+		<div class="col-xs-12 brand-contact-block">
+			<p class="brand-contact-details">E Mail: {{selectedBrand.email}}</p>
+			<p class="brand-contact-details">Cell: {{selectedBrand.phone}}</p>
+			<p class="brand-contact-details">www.{{selectedBrand.web}}</p>
+		</div>
+		<div class="col-xs-12">
+			<p class="brand-contact-details">{{selectedBrand.address}}</p>
+			<br>
+		</div>
+
+			<div class="col-xs-11 col-lg-12 brands-map" id="kreis-contact-map">
+							<agm-map *ngIf="mapa"
+									 [latitude]="brands_map_lat" 
+				                     [longitude]="brands_map_lng"
+				                     [zoom]="brands_map_zoom"
+				                     [backgroundColor]="black" 
+				                     [disableDefaultUI]="true" 
+				                     [disableDoubleClickZoom]="true"
+				                     [styles]="map_theme"
+				                     >
+				                        <agm-marker [latitude]="brands_mrk_lat" 
+				                                    [longitude]="brands_mrk_lng"
+				                                    [label]="brands_mrk_lbl"
+				                                    [markerDraggable]="brands_draggable"
+				                                    [openInfoWindow]="false" 
+				                                    [opacity]="1" 
+				                                    [title]="brands_mrk_lbl">
+				                        </agm-marker>
+	            		</agm-map>
+	            	</div>
+			<div class="hidden-lg col-xs-12 brands-details-close-container">
+					<button id="details-close-btn" class="btn" (click)="closeDetailsView()" >CLOSE</button>
+			</div>
+	</div>
+</div>
+
+<div id="MenuPane" class="{{MenuPane}}">
+	<div title="Kreis Kitchens" id="kitchensBtn" class="{{kitchensBtn}}" (click)="ChangeSelectedBrand(0)" >
+		<img id="kitchensBtnIcon" src="{{getBrandLogo(0)}}"  alt="Kreis Kitchens" class="{{kitchensBtnIcon}}">
+	</div>
+	<div title="Kreis Architects & Partners" id="achitectsBtn" class="{{achitectsBtn}}" (click)="ChangeSelectedBrand(1)" >
+		<img id="achitectsBtnIcon" src="{{getBrandLogo(1)}}" alt="" class="{{achitectsBtnIcon}}">
+	</div>
+	<div title="Kreis Foundation" id="foundationBtn" class="{{foundationBtn}}" (click)="ChangeSelectedBrand(2)" >
+		<img id="foundationBtnIcon" src="{{getBrandLogo(2)}}"  alt="Kreis Foundation" class="{{foundationBtnIcon}}">
+	</div>
+	<div title="Kreis Foundation" id="artsBtn" class="{{artsBtn}}" (click)="ChangeSelectedBrand(3)" >
+		<img id="artsBtnIcon" src="{{getBrandLogo(3)}}" alt="" class="{{artsBtnIcon}}">
+	</div>
+</div>
+<!-- =================== brands-catag.component.html  =================== -->
